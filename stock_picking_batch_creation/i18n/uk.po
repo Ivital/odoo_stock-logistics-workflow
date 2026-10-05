@@ -1,0 +1,76 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__create_uid
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__create_date
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_picking_batch__picking_device_id
+msgid "Device"
+msgstr "Пристрій"
+
+#. module: stock_picking_batch_creation
+#: model:ir.ui.menu,name:stock_picking_batch_creation.menu_stock_device_types
+msgid "Device Types"
+msgstr "Типи пристроїв"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__display_name
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_picking_batch_creation
+#: model:ir.actions.act_window,name:stock_picking_batch_creation.make_picking_batch_act_window
+#: model:ir.ui.menu,name:stock_picking_batch_creation.make_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.make_picking_batch_form_view
+msgid "Make Picking Batch"
+msgstr "Створити пакет переміщень"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__sequence
+msgid "Priority"
+msgstr "Пріоритет"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: stock_picking_batch_creation
+#: model:ir.actions.act_window,name:stock_picking_batch_creation.stock_device_type_act_window
+#: model:ir.model,name:stock_picking_batch_creation.model_stock_device_type
+#: model:ir.ui.menu,name:stock_picking_batch_creation.menu_stock_device_type
+msgid "Stock Device Type"
+msgstr "Тип складського пристрою"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.stock_device_type_form_view
+msgid "Units of Measure"
+msgstr "Одиниці виміру"

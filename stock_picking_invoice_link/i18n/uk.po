@@ -17,3 +17,28 @@ msgstr "Зв’язок складського переміщення з рах�
 #: model:ir.module.module,summary:base.module_stock_picking_invoice_link
 msgid "Adds link between pickings and invoices"
 msgstr "Додає зв’язок між складськими переміщеннями та рахунками"
+
+#. module: stock_picking_invoice_link
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoice_link.invoice_form
+msgid "Delivery"
+msgstr "Доставка"
+
+#. module: stock_picking_invoice_link
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoice_link.view_picking_form
+msgid "Invoice"
+msgstr "Рахунок-фактура"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_move__invoice_line_ids
+msgid "Invoice Line"
+msgstr "Рядок рахунка-фактури"
+
+#. module: stock_picking_invoice_link
+#: model_terms:ir.ui.view,arch_db:stock_picking_invoice_link.view_move_form
+msgid "Invoice Lines"
+msgstr "Рядки рахунка-фактури"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_ids
+msgid "Invoices"
+msgstr "Рахунки-фактури"

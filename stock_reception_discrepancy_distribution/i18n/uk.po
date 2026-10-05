@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__move_id
+msgid "Move"
+msgstr "Переміщення"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__move_dest_ids
+msgid "Move Dest"
+msgstr "Призначення переміщення"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__move_qty_done
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: stock_reception_discrepancy_distribution
+#: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
+msgid "Total"
+msgstr "Разом"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__product_uom
+msgid "UoM"
+msgstr "Од. вим."
