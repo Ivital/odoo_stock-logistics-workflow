@@ -42,3 +42,15 @@ msgstr "Рядки рахунка-фактури"
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_ids
 msgid "Invoices"
 msgstr "Рахунки-фактури"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_bank_statement_line__picking_count
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_move__picking_count
+msgid "Pickings count"
+msgstr "Кількість комплектувань"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_bank_statement_line__picking_ids
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_move__picking_ids
+msgid "Related Pickings"
+msgstr "Пов'язані комплектування"

@@ -48,3 +48,81 @@ msgstr "Переміщення"
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking__sale_ids
 msgid "Sale"
 msgstr "Продаж"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_type__group_pickings_one
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_warehouse__group_shippings_one
+msgid "Also group when policy is 'one'"
+msgstr "Також групувати, коли політика — «один»"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_res_partner__disable_picking_grouping
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_res_users__disable_picking_grouping
+msgid "Do not group deliveries"
+msgstr "Не групувати доставки"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
+msgid "For customer:"
+msgstr "Для клієнта:"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_type__group_pickings
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_warehouse__group_shippings
+msgid "Group pickings"
+msgstr "Групувати комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid "Mass Action for the selected stock picking"
+msgstr "Масова дія для вибраних складських комплектувань"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.actions.act_window,name:stock_picking_group_by_partner_by_carrier.act_window_merge_transfers
+msgid "Merge transfers"
+msgstr "Об’єднати переміщення"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__nothing_todo
+msgid "Nothing Todo"
+msgstr "Нічого робити"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_move__original_group_id
+msgid "Original Procurement Group"
+msgstr "Початкова група забезпечення"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__valid_picking_ids
+msgid "Valid Pickings"
+msgstr "Допустимі комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid "Valid pickings"
+msgstr "Допустимі комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
+msgid "With carrier:"
+msgstr "З перевізником:"

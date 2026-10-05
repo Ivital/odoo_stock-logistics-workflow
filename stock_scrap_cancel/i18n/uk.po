@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_scrap_cancel.selection__stock_scrap__state__cancel
 msgid "Cancelled"
 msgstr "Скасовано"
+
+#. module: stock_scrap_cancel
+#: model_terms:ir.ui.view,arch_db:stock_scrap_cancel.stock_scrap_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_scrap_cancel
+#: model_terms:ir.ui.view,arch_db:stock_scrap_cancel.stock_scrap_form_view
+msgid "Set to Draft"
+msgstr "Повернути в чернетку"

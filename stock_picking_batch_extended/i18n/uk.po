@@ -80,3 +80,121 @@ msgstr "Кількість"
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
+msgid "<strong>Date:</strong>"
+msgstr "<strong>Дата:</strong>"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
+msgid "<strong>Total:</strong>"
+msgstr "<strong>Разом:</strong>"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__active_picking_ids
+msgid "Active Pickings"
+msgstr "Активні комплектування"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model,name:stock_picking_batch_extended.model_stock_picking_batch
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_move__batch_id
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__name
+msgid "Batch Transfer"
+msgstr "Пакетне переміщення"
+
+#. module: stock_picking_batch_extended
+#: model:ir.actions.report,name:stock_picking_batch_extended.action_report_batch_picking
+msgid "Batch picking"
+msgstr "Пакетне комплектування"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_warehouse__default_user_id
+msgid "Default Picker"
+msgstr "Комплектувальник за замовчуванням"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_form
+msgid "Detailed op."
+msgstr "Детальна операція"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__field_id
+msgid "Field to group"
+msgstr "Поле для групування"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__group_field_ids
+msgid "Group by field"
+msgstr "Групувати за полем"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__batch_max_pickings
+msgid "Maximum transfers"
+msgstr "Максимум переміщень"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_filter
+msgid "My batches"
+msgstr "Мої партії"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
+msgid "Picked By"
+msgstr "Відібрано ким"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
+msgid "Pickings Order"
+msgstr "Порядок комплектувань"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_form
+msgid "Print Pickings"
+msgstr "Друкувати комплектування"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_form
+msgid "Remove Undone"
+msgstr "Видалити незавершені"
+
+#. module: stock_picking_batch_extended
+#: model:ir.actions.server,name:stock_picking_batch_extended.action_stock_batch_picking_assign_all
+msgid "Reserve All"
+msgstr "Зарезервувати все"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_filter
+msgid "Scheduled Date"
+msgstr "Запланована дата"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_filter
+msgid "Unassigned"
+msgstr "Не призначено"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_res_config_settings__use_oca_batch_validation
+msgid "Use OCA approach to validate Picking Batch"
+msgstr "Використовувати підхід OCA для перевірки пакетного комплектування"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_res_company__use_oca_batch_validation
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__use_oca_batch_validation
+msgid "Use Oca Batch Validation"
+msgstr "Використовувати пакетну перевірку OCA"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.view_picking_internal_search
+msgid "Without batch"
+msgstr "Без пакета"

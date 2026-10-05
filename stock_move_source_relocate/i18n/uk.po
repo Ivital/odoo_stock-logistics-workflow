@@ -70,3 +70,33 @@ msgstr "Послідовність"
 #: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_form
 msgid "Source Relocation"
 msgstr "Переміщення джерела"
+
+#. module: stock_move_source_relocate
+#: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_form
+msgid "Applicability"
+msgstr "Застосовність"
+
+#. module: stock_move_source_relocate
+#: model:ir.model.fields,field_description:stock_move_source_relocate.field_stock_source_relocate__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_move_source_relocate
+#: model:ir.model.fields,field_description:stock_move_source_relocate.field_stock_source_relocate__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_move_source_relocate
+#: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_form
+msgid "Relocation"
+msgstr "Переміщення"
+
+#. module: stock_move_source_relocate
+#: model:ir.model.fields,field_description:stock_move_source_relocate.field_stock_source_relocate__rule_message
+msgid "Rule Message"
+msgstr "Повідомлення правила"
+
+#. module: stock_move_source_relocate
+#: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_search
+msgid "Stock Reservation Rule"
+msgstr "Правило резервування запасів"

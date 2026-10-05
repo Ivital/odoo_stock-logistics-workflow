@@ -37,3 +37,23 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__move_ids
 msgid "Moves"
 msgstr "Переміщення"
+
+#. module: stock_picking_batch_validate_confirm
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_batch_validate_confirm
+#: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_batch_validate_confirm
+#: model:ir.model.fields,field_description:stock_picking_batch_validate_confirm.field_stock_picking_batch_confirm__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_batch_validate_confirm
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form
+msgid "Validate"
+msgstr "Підтвердити"

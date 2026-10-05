@@ -17,3 +17,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_move__picking_kind
 msgid "Picking Kind"
 msgstr "Вид переміщення"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_partner__charge_restocking_fee
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_users__charge_restocking_fee
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_move__charge_restocking_fee
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking__charge_restocking_fee
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking_line__charge_restocking_fee
+msgid "Charge Restocking Fee"
+msgstr "Стягувати плату за повернення на склад"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking__is_customer_return
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_stock_return_picking_line__is_customer_return
+msgid "Is Customer Return"
+msgstr "Є поверненням клієнта"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_company__restocking_fee_product_id
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_config_settings__restocking_fee_product_id
+msgid "Restocking Fee Product"
+msgstr "Товар плати за повернення на склад"

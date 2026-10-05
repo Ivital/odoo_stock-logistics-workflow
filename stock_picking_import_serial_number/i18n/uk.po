@@ -49,3 +49,55 @@ msgstr "Переміщення"
 #: model:ir.model.fields.selection,name:stock_picking_import_serial_number.selection__stock_picking_import_serial_number_wiz__sn_search_product_by_field__default_code
 msgid "Reference"
 msgstr "Посилання"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.stock_picking_import_serial_number_wiz
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_package_column_index
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_package_column_index
+msgid "Column index for Package"
+msgstr "Індекс колонки для пакунка"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_serial_column_index
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_serial_column_index
+msgid "Column index for S/N"
+msgstr "Індекс колонки для S/N"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_product_column_index
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_product_column_index
+msgid "Column index for product"
+msgstr "Індекс колонки для товару"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__data_file
+msgid "File to import"
+msgstr "Файл для імпорту"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.actions.act_window,name:stock_picking_import_serial_number.action_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.stock_picking_import_serial_number_wiz
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.view_picking_form
+msgid "Import S/N"
+msgstr "Імпортувати S/N"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_res_config_settings__default_sn_search_product_by_field
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_search_product_by_field
+msgid "Search product by field"
+msgstr "Шукати товар за полем"

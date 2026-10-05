@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_picking_batch_print_invoices.selection__stock_picking_type__print_documents_from_batch__invoices
 msgid "Invoices"
 msgstr "Рахунки-фактури"
+
+#. module: stock_picking_batch_print_invoices
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_print_invoices.stock_picking_batch_form_inherit_stock_picking_batch_print_invoices
+msgid "Delivery Slips/Invoices"
+msgstr "Документи доставки/рахунки"

@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_partner_vat.field_stock_picking__partner_vat
 msgid "Tax ID"
 msgstr "Податковий номер"
+
+#. module: stock_picking_partner_vat
+#: model_terms:ir.ui.view,arch_db:stock_picking_partner_vat.partner_vat
+msgid "Tax ID:"
+msgstr "Податковий ID:"

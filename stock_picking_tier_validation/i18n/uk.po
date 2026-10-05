@@ -53,3 +53,33 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: stock_picking_tier_validation
+#: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: stock_picking_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_picking_tier_validation.view_picking_internal_search
+msgid "Needs my Review"
+msgstr "Потребує мого перегляду"
+
+#. module: stock_picking_tier_validation
+#: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: stock_picking_tier_validation
+#: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: stock_picking_tier_validation
+#: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: stock_picking_tier_validation
+#: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"

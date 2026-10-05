@@ -22,3 +22,8 @@ msgstr "Режим розподілу"
 #: model:ir.model,name:stock_picking_batch_creation_split_kit.model_stock_device_type
 msgid "Stock Device Type"
 msgstr "Тип складського пристрою"
+
+#. module: stock_picking_batch_creation_split_kit
+#: model:ir.model.fields.selection,name:stock_picking_batch_creation_split_kit.selection__stock_device_type__split_mode__kit_quantity
+msgid "Kit Quantity"
+msgstr "Кількість комплекту"

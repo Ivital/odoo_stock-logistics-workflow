@@ -42,3 +42,44 @@ msgstr "Переміщення"
 #: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__picking_ids
 msgid "Picking"
 msgstr "Переміщення"
+
+#. module: stock_split_picking
+#: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_split_picking
+#: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_split_picking
+#: model:ir.model.fields,field_description:stock_split_picking.field_stock_split_picking__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_split_picking
+#: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__quantity
+msgid "Quantities"
+msgstr "Кількості"
+
+#. module: stock_split_picking
+#: model_terms:ir.ui.view,arch_db:stock_split_picking.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
+msgid "Split"
+msgstr "Розділити"
+
+#. module: stock_split_picking
+#: model:ir.actions.act_window,name:stock_split_picking.action_stock_split_picking
+msgid "Split pickings"
+msgstr "Розділити комплектування"
+
+#. module: stock_split_picking
+#: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"
+
+#. module: stock_split_picking
+#: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
+msgid "or"
+msgstr "або"

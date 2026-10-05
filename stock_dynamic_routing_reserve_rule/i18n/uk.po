@@ -17,3 +17,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.view_stock_routing_form
 msgid "Reservation Rules"
 msgstr "Правила резервування"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_dest
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_src
+msgid ", for locations:"
+msgstr ", для місць:"

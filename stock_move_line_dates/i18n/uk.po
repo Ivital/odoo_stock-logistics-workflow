@@ -18,3 +18,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_move_line_dates.stock_move_line_view_search
 msgid "Deadline"
 msgstr "Кінцевий термін"
+
+#. module: stock_move_line_dates
+#: model:ir.model.fields,field_description:stock_move_line_dates.field_stock_move_line__scheduled_date
+#: model_terms:ir.ui.view,arch_db:stock_move_line_dates.stock_move_line_view_search
+msgid "Scheduled Date"
+msgstr "Запланована дата"
+
+#. module: stock_move_line_dates
+#: model_terms:ir.ui.view,arch_db:stock_move_line_dates.stock_move_line_view_search
+msgid "Today"
+msgstr "Сьогодні"
+
+#. module: stock_move_line_dates
+#: model_terms:ir.ui.view,arch_db:stock_move_line_dates.stock_move_line_view_search
+msgid "Tomorrow"
+msgstr "Завтра"

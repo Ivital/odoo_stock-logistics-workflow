@@ -18,3 +18,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Picking Kind"
 msgstr "Вид переміщення"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__customer_return
+msgid "Customer Return"
+msgstr "Повернення клієнта"
+
+#. module: stock_picking_kind
+#: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
+msgid "Customer Returns"
+msgstr "Повернення клієнтів"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__drop_shipping
+msgid "Drop Shipping"
+msgstr "Пряма доставка"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__supplier_return
+msgid "Supplier Return"
+msgstr "Повернення постачальнику"

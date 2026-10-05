@@ -65,3 +65,34 @@ msgstr "Примітки до переміщення"
 #: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: stock_picking_partner_note
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_res_company__check_note_already_in_use
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_res_config_settings__check_note_already_in_use
+#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.res_config_settings_view_form
+msgid "Check picking note already in use"
+msgstr "Перевірити, чи примітка комплектування вже використовується"
+
+#. module: stock_picking_partner_note
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_uid
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_partner_note
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note__write_date
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_note_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_partner_note
+#: model:ir.model,name:stock_picking_partner_note.model_stock_picking_note
+#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.view_stock_picking_note_form
+msgid "Picking Note"
+msgstr "Примітка комплектування"
+
+#. module: stock_picking_partner_note
+#: model:ir.model,name:stock_picking_partner_note.model_stock_picking_note_type
+#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.view_stock_picking_note_type_form
+msgid "Picking Note Type"
+msgstr "Тип примітки комплектування"

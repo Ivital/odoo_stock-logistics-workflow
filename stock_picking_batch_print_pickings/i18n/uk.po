@@ -17,3 +17,19 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_picking_batch_print_pickings.selection__stock_picking_type__print_documents_from_batch__pickings
 msgid "Pickings"
 msgstr "Переміщення"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.actions.report,name:stock_picking_batch_print_pickings.action_report_picking_batch_print_pickings
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_print_pickings.stock_picking_batch_form_inherit_stock_picking_batch_print_pickings
+msgid "Delivery Slips"
+msgstr "Документи доставки"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.actions.server,name:stock_picking_batch_print_pickings.action_print_pickings
+msgid "Delivery Slips/Invoices"
+msgstr "Документи доставки/рахунки"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.model.fields,field_description:stock_picking_batch_print_pickings.field_stock_picking_batch__print_documents
+msgid "Print Documents"
+msgstr "Друкувати документи"

@@ -52,3 +52,19 @@ msgstr "Код причини"
 #: model:ir.ui.menu,name:scrap_reason_code.menu_view_scrap_reason_code_form
 msgid "Scrap Reason Codes"
 msgstr "Коди причин списання"
+
+#. module: scrap_reason_code
+#: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: scrap_reason_code
+#: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: scrap_reason_code
+#: model:ir.model.fields,field_description:scrap_reason_code.field_scrap_reason_code__location_id
+#: model:ir.model.fields,field_description:scrap_reason_code.field_stock_scrap__scrap_location_id
+msgid "Scrap Location"
+msgstr "Місце браку"

@@ -37,3 +37,72 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__picking_id
 msgid "Picking"
 msgstr "Переміщення"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__location_dest_id
+msgid "Actual destination location"
+msgstr "Фактичне місце призначення"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__allowed_product_ids
+msgid "Allowed Product"
+msgstr "Дозволений товар"
+
+#. module: stock_picking_operation_quick_change
+#: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
+msgid "Apply"
+msgstr "Застосувати"
+
+#. module: stock_picking_operation_quick_change
+#: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_operation_quick_change
+#: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.view_picking_form
+msgid "Change Location"
+msgstr "Змінити місце"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.actions.act_window,name:stock_picking_operation_quick_change.action_stock_picking_operation_change_location
+msgid "Change Operation Destination Location"
+msgstr "Змінити місце призначення операції"
+
+#. module: stock_picking_operation_quick_change
+#: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
+msgid ""
+"Change the destination location.\n"
+"                    <br/>"
+msgstr ""
+"Змінити місце призначення.\n"
+"                    <br/>"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__new_location_dest_id
+msgid "New destination location"
+msgstr "Нове місце призначення"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,field_description:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__old_location_dest_id
+msgid "Old destination location"
+msgstr "Старе місце призначення"
+
+#. module: stock_picking_operation_quick_change
+#: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
+msgid "Stock Picking"
+msgstr "Складське переміщення"
+
+#. module: stock_picking_operation_quick_change
+#: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
+msgid "or"
+msgstr "або"

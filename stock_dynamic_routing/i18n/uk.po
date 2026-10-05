@@ -77,3 +77,56 @@ msgstr "Маршрутизація"
 #: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing__write_uid
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing__write_date
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__location_dest_id
+msgid "Location Dest"
+msgstr "Місце призначення"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__location_src_id
+msgid "Location Src"
+msgstr "Початкове місце"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing__picking_type_id
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__routing_picking_type_id
+msgid "Operation Type"
+msgstr "Тип операції"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields.selection,name:stock_dynamic_routing.selection__stock_routing_rule__method__pull
+msgid "Pull"
+msgstr "Отримати"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields.selection,name:stock_dynamic_routing.selection__stock_routing_rule__method__push
+msgid "Push"
+msgstr "Передати"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing__routing_message
+msgid "Routing Message"
+msgstr "Повідомлення маршрутизації"
+
+#. module: stock_dynamic_routing
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing.view_stock_routing_form
+msgid "Routing Rule"
+msgstr "Правило маршрутизації"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing__rule_ids
+msgid "Routing Rules"
+msgstr "Правила маршрутизації"

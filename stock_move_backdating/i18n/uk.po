@@ -27,3 +27,48 @@ msgstr "Створено"
 #: model:ir.model.fields,field_description:stock_move_backdating.field_fill_date_backdating__display_name
 msgid "Display Name"
 msgstr "Відображувана назва"
+
+#. module: stock_move_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_fill_date_backdating__date_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_stock_move_line__date_backdating
+msgid "Actual Movement Date"
+msgstr "Фактична дата переміщення"
+
+#. module: stock_move_backdating
+#: model_terms:ir.ui.view,arch_db:stock_move_backdating.view_fill_backdating
+msgid "Apply"
+msgstr "Застосувати"
+
+#. module: stock_move_backdating
+#: model_terms:ir.ui.view,arch_db:stock_move_backdating.view_fill_backdating
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_move_backdating
+#: model:ir.actions.act_window,name:stock_move_backdating.action_view_fill_backdating
+#: model_terms:ir.ui.view,arch_db:stock_move_backdating.stock_picking_view_form_inherit_backdating
+#: model_terms:ir.ui.view,arch_db:stock_move_backdating.view_fill_backdating
+msgid "Fill Actual Movement Date"
+msgstr "Заповнювати фактичну дату переміщення"
+
+#. module: stock_move_backdating
+#: model:ir.model,name:stock_move_backdating.model_fill_date_backdating
+#: model_terms:ir.ui.view,arch_db:stock_move_backdating.stock_picking_view_form_inherit_backdating
+msgid "Fill Actual Movement Date of all operations"
+msgstr "Заповнювати фактичну дату переміщення всіх операцій"
+
+#. module: stock_move_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_stock_picking__date_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_stock_scrap__date_backdating
+msgid "Forced Effective Date"
+msgstr "Примусова дата набрання чинності"
+
+#. module: stock_move_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_fill_date_backdating__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_move_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_fill_date_backdating__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

@@ -58,3 +58,38 @@ msgstr "Підтверджено"
 #: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__review_ids
 msgid "Validations"
 msgstr "Погодження"
+
+#. module: stock_scrap_tier_validation
+#: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__need_validation
+msgid "Need Validation"
+msgstr "Потрібна перевірка"
+
+#. module: stock_scrap_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_scrap_tier_validation.view_stock_scrap_filter
+msgid "Needs my Review"
+msgstr "Потребує мого перегляду"
+
+#. module: stock_scrap_tier_validation
+#: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__rejected_message
+msgid "Rejected Message"
+msgstr "Відхилене повідомлення"
+
+#. module: stock_scrap_tier_validation
+#: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__to_validate_message
+msgid "To Validate Message"
+msgstr "Повідомлення для перевірки"
+
+#. module: stock_scrap_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_scrap_tier_validation.stock_scrap_form_view2
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: stock_scrap_tier_validation
+#: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__validated_message
+msgid "Validated Message"
+msgstr "Перевірене повідомлення"
+
+#. module: stock_scrap_tier_validation
+#: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__validation_status
+msgid "Validation Status"
+msgstr "Статус перевірки"

@@ -91,7 +91,7 @@ msgstr "Позначити як справу"
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
 msgid "Mass Action for the selected stock picking"
-msgstr ""
+msgstr "Масова дія для вибраних складських комплектувань"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__picking_ids

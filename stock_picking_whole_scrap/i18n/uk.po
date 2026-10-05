@@ -70,3 +70,45 @@ msgstr "Кількість"
 #: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: stock_picking_whole_scrap
+#: model_terms:ir.ui.view,arch_db:stock_picking_whole_scrap.view_stock_picking_scrap_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap__write_uid
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap__write_date
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_whole_scrap
+#: model_terms:ir.ui.view,arch_db:stock_picking_whole_scrap.view_stock_picking_scrap_form
+msgid "Scrap"
+msgstr "Брак"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.actions.server,name:stock_picking_whole_scrap.action_scrap_all
+msgid "Scrap All"
+msgstr "Списати все"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap__scrap_location_id
+msgid "Scrap Location"
+msgstr "Місце браку"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__scrap_reason_tag_ids
+msgid "Scrap Reason"
+msgstr "Причина списання"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__uom_id
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"

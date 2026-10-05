@@ -25,7 +25,7 @@ msgstr ""
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_location__allow_locked
 msgid "Allow Locked"
-msgstr ""
+msgstr "Дозволити заблоковане"
 
 #. module: stock_lock_lot
 #: model:res.groups,name:stock_lock_lot.group_lock_lot

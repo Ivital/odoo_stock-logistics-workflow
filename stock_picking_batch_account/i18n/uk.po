@@ -12,3 +12,18 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_stock_picking_batch_account
 msgid "Generates invoices when batch is set to Done state"
 msgstr "Створює рахунки, коли пакет переведено у стан «Готово»"
+
+#. module: stock_picking_batch_account
+#: model:ir.model.fields.selection,name:stock_picking_batch_account.selection__res_partner__batch_picking_auto_invoice__no
+msgid "No"
+msgstr "Ні"
+
+#. module: stock_picking_batch_account
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_account.stock_picking_batch_form
+msgid "Print Invoices"
+msgstr "Друкувати рахунки"
+
+#. module: stock_picking_batch_account
+#: model:ir.model.fields.selection,name:stock_picking_batch_account.selection__res_partner__batch_picking_auto_invoice__yes
+msgid "Yes"
+msgstr "Так"

@@ -52,3 +52,38 @@ msgstr "Разом"
 #: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__product_uom
 msgid "UoM"
 msgstr "Од. вим."
+
+#. module: stock_reception_discrepancy_distribution
+#: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_reception_discrepancy_distribution
+#: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__move_dest_demand
+msgid "Move Dest Demand"
+msgstr "Попит переміщення призначення"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model.fields,field_description:stock_reception_discrepancy_distribution.field_stock_reception_discrepancy_distribution_wiz__over_quantity
+msgid "Over Quantity"
+msgstr "Надлишкова кількість"
+
+#. module: stock_reception_discrepancy_distribution
+#: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
+msgid "or"
+msgstr "або"

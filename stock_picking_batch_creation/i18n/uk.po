@@ -74,3 +74,96 @@ msgstr "Тип складського пристрою"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.stock_device_type_form_view
 msgid "Units of Measure"
 msgstr "Одиниці виміру"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.make_picking_batch_form_view
+msgid "Advanced"
+msgstr "Розширений"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.make_picking_batch_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.stock_device_type_form_view
+msgid "Constrains"
+msgstr "Обмеження"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.make_picking_batch_form_view
+msgid "Criteria"
+msgstr "Критерії"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.make_picking_batch_form_view
+msgid "Diagnostic"
+msgstr "Діагностика"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields.selection,name:stock_picking_batch_creation.selection__stock_device_type__split_mode__dimension
+msgid "Dimension"
+msgstr "Вимір"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__write_uid
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__write_date
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__nbr_bins
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_picking_batch__batch_nbr_bins
+msgid "Number of compartments"
+msgstr "Кількість відсіків"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_picking__nbr_picking_lines
+msgid "Number of lines"
+msgstr "Кількість рядків"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_picking_batch__batch_volume
+msgid "Total volume"
+msgstr "Загальний об’єм"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_picking_batch__batch_weight
+msgid "Total weight"
+msgstr "Загальна вага"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__user_volume_uom_name
+msgid "Volume Unit of Measure label"
+msgstr "Мітка одиниці вимірювання об'єму"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__user_volume_uom_id
+msgid "Volume Units of Measure"
+msgstr "Одиниці вимірювання об'єму"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_device_type__user_weight_uom_id
+msgid "Weight Unit of Measure"
+msgstr "Одиниця вимірювання ваги"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__user_weight_uom_id
+msgid "Weight Units of Measure"
+msgstr "Одиниці вимірювання ваги"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,field_description:stock_picking_batch_creation.field_stock_device_type__user_weight_uom_name
+msgid "Weight unit of measure label"
+msgstr "Мітка одиниці вимірювання ваги"
+
+#. module: stock_picking_batch_creation
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_creation.stock_device_type_form_view
+msgid "e.g. Forklift"
+msgstr "напр., навантажувач"

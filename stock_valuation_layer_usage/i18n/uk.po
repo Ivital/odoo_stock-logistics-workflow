@@ -64,3 +64,49 @@ msgstr "Значення використання"
 #: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_usage_list
 msgid "Value"
 msgstr "Значення"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_form
+msgid "Incoming Usage"
+msgstr "Вхідне використання"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model,name:stock_valuation_layer_usage.model_stock_valuation_layer
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_valuation_layer_id
+msgid "Stock Valuation Layer"
+msgstr "Шар оцінки запасів"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__quantity
+msgid "Taken Quantity"
+msgstr "Взята кількість"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_form
+msgid "Usage"
+msgstr "Використання"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__usage_quantity
+msgid "Usage Quantity"
+msgstr "Кількість використання"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_move__layer_usage_ids
+msgid "Valuation Layer Usage"
+msgstr "Використання шару оцінки"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__usage_ids
+msgid "Valuation Usage"
+msgstr "Використання оцінки"

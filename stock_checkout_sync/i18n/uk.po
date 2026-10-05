@@ -42,3 +42,56 @@ msgstr "Переміщення"
 #: model:ir.model.fields,field_description:stock_checkout_sync.field_stock_move_checkout_sync__picking_ids
 msgid "Picking"
 msgstr "Переміщення"
+
+#. module: stock_checkout_sync
+#. odoo-python
+#: code:addons/stock_checkout_sync/wizards/stock_move_checkout_sync.py:0
+#: model_terms:ir.ui.view,arch_db:stock_checkout_sync.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock_checkout_sync.view_stock_move_checkout_sync
+msgid "Checkout Sync"
+msgstr "Синхронізація видачі"
+
+#. module: stock_checkout_sync
+#: model_terms:ir.ui.view,arch_db:stock_checkout_sync.view_stock_move_checkout_sync
+msgid "Date Expected"
+msgstr "Очікувана дата"
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,field_description:stock_checkout_sync.field_stock_move_checkout_sync__dest_picking_id
+msgid "Dest Picking"
+msgstr "Комплектування призначення"
+
+#. module: stock_checkout_sync
+#: model_terms:ir.ui.view,arch_db:stock_checkout_sync.view_stock_move_checkout_sync
+msgid "Discard"
+msgstr "Відкинути"
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,field_description:stock_checkout_sync.field_stock_move_checkout_sync__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,field_description:stock_checkout_sync.field_stock_move_checkout_sync__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,field_description:stock_checkout_sync.field_stock_move_checkout_sync__remaining_help
+msgid "Remaining Help"
+msgstr "Підказка щодо залишку"
+
+#. module: stock_checkout_sync
+#: model_terms:ir.ui.view,arch_db:stock_checkout_sync.view_stock_move_checkout_sync
+msgid "Skip"
+msgstr "Пропустити"
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,field_description:stock_checkout_sync.field_stock_move_checkout_sync__picking_type_location_id
+msgid "Source Location"
+msgstr "Початкове місце"
+
+#. module: stock_checkout_sync
+#: model_terms:ir.ui.view,arch_db:stock_checkout_sync.view_stock_move_checkout_sync
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"

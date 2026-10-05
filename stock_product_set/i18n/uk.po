@@ -52,3 +52,29 @@ msgstr "Рядок набору товарів"
 #: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__quantity
 msgid "Quantity"
 msgstr "Кількість"
+
+#. module: stock_product_set
+#: model_terms:ir.ui.view,arch_db:stock_product_set.product_set_add_from_picking_form_view
+#: model_terms:ir.ui.view,arch_db:stock_product_set.view_picking_form
+msgid "Add set"
+msgstr "Додати набір"
+
+#. module: stock_product_set
+#: model_terms:ir.ui.view,arch_db:stock_product_set.product_set_add_from_picking_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: stock_product_set
+#: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_product_set
+#: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_product_set
+#: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__product_set_line_ids
+msgid "Product set lines"
+msgstr "Рядки набору товарів"

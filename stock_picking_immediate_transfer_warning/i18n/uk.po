@@ -41,3 +41,38 @@ msgstr "Вибрати"
 #: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning_line__picking_id
 msgid "Transfer"
 msgstr "Переміщення"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model_terms:ir.ui.view,arch_db:stock_picking_immediate_transfer_warning.view_immediate_transfer_warning
+msgid "Discard"
+msgstr "Відкинути"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model:ir.model,name:stock_picking_immediate_transfer_warning.model_stock_immediate_transfer_warning
+#: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning_line__immediate_transfer_warning_id
+msgid "Immediate Transfer Warning"
+msgstr "Попередження негайного переміщення"
+
+#. module: stock_picking_immediate_transfer_warning
+#. odoo-python
+#: code:addons/stock_picking_immediate_transfer_warning/models/stock_picking.py:0
+#: model_terms:ir.ui.view,arch_db:stock_picking_immediate_transfer_warning.view_immediate_transfer_warning
+msgid "Immediate Transfer?"
+msgstr "Негайне переміщення?"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning__write_uid
+#: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning__write_date
+#: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model_terms:ir.ui.view,arch_db:stock_picking_immediate_transfer_warning.view_immediate_transfer_warning
+msgid "Process"
+msgstr "Обробити"
