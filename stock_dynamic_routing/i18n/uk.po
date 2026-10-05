@@ -145,3 +145,59 @@ msgstr "Скасовано маршрутизацією"
 #: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__rule_domain
 msgid "Source Routing Domain"
 msgstr "Домен вихідної маршрутизації"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.constraint,message:stock_dynamic_routing.constraint_stock_routing_location_picking_type_uniq
+msgid ""
+"A routing configuration already exists for this location and picking type"
+msgstr ""
+"Конфігурація маршрутизації для цього місця розташування й типу "
+"комплектування вже існує"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,help:stock_dynamic_routing.field_stock_routing__picking_type_id
+msgid "Apply this routing only if the operation type of the move is the same."
+msgstr ""
+"Застосовувати цю маршрутизацію лише якщо тип операції переміщення "
+"збігається."
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,help:stock_dynamic_routing.field_stock_routing_rule__rule_domain
+msgid ""
+"Domain based on Stock Moves, to define if the routing rule is applicable or "
+"not."
+msgstr ""
+"Домен на основі складських переміщень, що визначає, чи застосовується "
+"правило маршрутизації."
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,help:stock_dynamic_routing.field_stock_routing_rule__method
+msgid ""
+"On pull, the routing is applied when the source location of a move line "
+"matches the source location of the rule. On push, the routing is applied "
+"when the destination location of a move line matches the destination "
+"location of the rule."
+msgstr ""
+"Для pull-маршрутизації маршрут застосовується, коли початкове розташування "
+"рядка переміщення збігається з початковим розташуванням правила. Для push-"
+"маршрутизації маршрут застосовується, коли кінцеве розташування рядка "
+"переміщення збігається з кінцевим розташуванням правила."
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,help:stock_dynamic_routing.field_stock_routing_rule__picking_type_id
+msgid "Operation type that will be applied on the move."
+msgstr "Тип операції, що застосовуватиметься до переміщення."
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,help:stock_dynamic_routing.field_stock_routing_rule__routing_picking_type_id
+msgid "Routing applied only on moves of this operation type."
+msgstr "Маршрутизація застосовується лише до переміщень цього типу операції."
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,help:stock_dynamic_routing.field_stock_picking__canceled_by_routing
+msgid ""
+"Technical field. Indicates the transfer is canceled because it was left "
+"empty after a dynamic routing."
+msgstr ""
+"Технічне поле. Вказує, що переміщення скасовано, бо після динамічної "
+"маршрутизації воно залишилося порожнім."

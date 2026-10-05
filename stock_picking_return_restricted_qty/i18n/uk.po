@@ -17,3 +17,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_return_restricted_qty.field_stock_picking_type__restrict_return_qty
 msgid "Restrict Return Quantity"
 msgstr "Обмежити кількість повернення"
+
+#. module: stock_picking_return_restricted_qty
+#: model:ir.model.fields,help:stock_picking_return_restricted_qty.field_stock_picking_type__restrict_return_qty
+msgid ""
+"Enable this option to restrict returning more quantities than delivered."
+msgstr ""
+"Увімкніть цей параметр, щоб заборонити повернення кількості, більшої за "
+"доставлену."

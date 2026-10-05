@@ -23,3 +23,23 @@ msgstr "Фантомне резервування"
 #: model:ir.model.fields,field_description:stock_picking_type_bypass_reservation.field_stock_picking_type__bypass_reservation
 msgid "Reserve over availability"
 msgstr "Резервувати понад доступність"
+
+#. module: stock_picking_type_bypass_reservation
+#: model:ir.model.fields,help:stock_picking_type_bypass_reservation.field_stock_move_line__bypassed_reservation
+msgid ""
+"Detailed operations with this flag, have a forced reserved quantity to "
+"reveal the uncovered demand in the system. It can be used to easily filter "
+"this operations"
+msgstr ""
+"Детальні операції з цим прапорцем мають примусово зарезервовану кількість, "
+"щоб показати непокритий попит у системі. Це дає змогу легко фільтрувати такі"
+" операції."
+
+#. module: stock_picking_type_bypass_reservation
+#: model:ir.model.fields,help:stock_picking_type_bypass_reservation.field_stock_picking_type__bypass_reservation
+msgid ""
+"If checked, products from this Picking Type will always be reserved even if you don't have enough stock (available stock will be reserved as usual).\n"
+"Note: Pickings will be reserved on Confirmation even if you don't have checked the option"
+msgstr ""
+"Якщо позначено, товари з цього типу складської операції завжди резервуватимуться, навіть якщо запасу недостатньо (доступний запас резервуватиметься як завжди).\n"
+"Примітка: складські операції резервуватимуться під час підтвердження, навіть якщо відповідний параметр не позначено."

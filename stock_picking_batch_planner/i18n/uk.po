@@ -43,3 +43,27 @@ msgstr "Автоматичні пакети (початкове значення
 #: model:ir.model.fields,field_description:stock_picking_batch_planner.field_stock_picking_batch__origin_batches_count
 msgid "Origin batches count"
 msgstr "Кількість початкових партій"
+
+#. module: stock_picking_batch_planner
+#: model:ir.model.fields,help:stock_picking_batch_planner.field_stock_picking_type__auto_batch_original
+msgid "Field used to store the original value of `auto_batch` field."
+msgstr "Поле для зберігання початкового значення поля `auto_batch`."
+
+#. module: stock_picking_batch_planner
+#: model:ir.model.fields,help:stock_picking_batch_planner.field_stock_picking_batch__origin_batches_count
+msgid "Number of Batches of the origin moves"
+msgstr "Кількість пакетів початкових переміщень"
+
+#. module: stock_picking_batch_planner
+#: model:ir.model.fields,help:stock_picking_batch_planner.field_stock_picking_type__plan_batch
+msgid ""
+"Place Stock Operations in Batches or Waves when planned from the Batch of the destiny moves.\n"
+"Uses same criteria as Auto-Batches to decide how to plan batches/waves."
+msgstr ""
+"Розміщувати складські операції в пакетах або хвилях, коли їх планують із пакета цільових переміщень.\n"
+"Для визначення способу планування пакетів/хвиль використовуються ті самі критерії, що й для автопакетів."
+
+#. module: stock_picking_batch_planner
+#: model:ir.model.fields,help:stock_picking_batch_planner.field_stock_picking_batch__can_plan_batches
+msgid "Shows if this Batch can plan Batches"
+msgstr "Показує, чи може цей пакет планувати пакети"

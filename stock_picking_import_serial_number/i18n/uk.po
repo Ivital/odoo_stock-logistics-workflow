@@ -154,3 +154,8 @@ msgstr "Виберіть стовпець індексного файлу з і�
 msgid "Select the index file column which contains the serial numbers info"
 msgstr ""
 "Виберіть стовпець індексного файлу, що містить інформацію про серійні номери"
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model,name:stock_picking_import_serial_number.model_stock_picking_import_serial_number_wiz
+msgid "Import S/N wizard"
+msgstr "Майстер імпорту серійних номерів"

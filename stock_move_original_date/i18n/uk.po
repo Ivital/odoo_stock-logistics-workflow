@@ -22,3 +22,18 @@ msgstr "Початкова запланована дата"
 #: model:ir.model.fields,field_description:stock_move_original_date.field_stock_picking__original_scheduled_date
 msgid "Original Scheduled Date"
 msgstr "Початкова запланована дата"
+
+#. module: stock_move_original_date
+#: model:ir.model.fields,help:stock_move_original_date.field_stock_picking__original_scheduled_date
+msgid ""
+"Original Scheduled date for the first part of the shipment to be processed "
+"at transfer confirmation."
+msgstr ""
+"Початкова запланована дата першої частини відправлення, що оброблятиметься "
+"під час підтвердження переміщення."
+
+#. module: stock_move_original_date
+#: model:ir.model.fields,help:stock_move_original_date.field_stock_move__original_date
+msgid "Original Scheduled date on the confirmation of the stock move."
+msgstr ""
+"Початкова запланована дата на момент підтвердження складського переміщення."

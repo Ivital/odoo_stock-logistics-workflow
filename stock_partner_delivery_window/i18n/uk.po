@@ -121,3 +121,8 @@ msgstr ""
 "Під час друку документів та експорту/імпорту даних, значення часу вираховується відносно часового поясу.\n"
 "Якщо часовий пояс не встановлено, використовується UTC (Узгоджений світовий час).\n"
 "У будь-якому іншому випадку значення часу обчислюються відповідно до зсуву часу вашого веб-клієнта."
+
+#. module: stock_partner_delivery_window
+#: model:ir.model,name:stock_partner_delivery_window.model_partner_delivery_time_window
+msgid "Preferred delivery time windows"
+msgstr "Бажані часові вікна доставки"

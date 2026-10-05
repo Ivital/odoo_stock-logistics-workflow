@@ -27,3 +27,13 @@ msgstr "<strong>Номер рядка</strong>"
 #: model:ir.model.fields,field_description:stock_picking_line_sequence.field_stock_picking__max_line_sequence
 msgid "Max sequence in lines"
 msgstr "Максимальна послідовність у рядках"
+
+#. module: stock_picking_line_sequence
+#: model:ir.model.fields,help:stock_picking_line_sequence.field_stock_move__sequence
+msgid "Determines the sequence of this move on the stock picking."
+msgstr "Визначає послідовність цього переміщення у складському переміщенні."
+
+#. module: stock_picking_line_sequence
+#: model:ir.model.fields,help:stock_picking_line_sequence.field_stock_move__visible_sequence
+msgid "Displays the sequence of this move on the stock picking."
+msgstr "Відображає послідовність цього переміщення у складському переміщенні."

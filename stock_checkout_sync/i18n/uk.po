@@ -129,3 +129,49 @@ msgid ""
 msgstr ""
 "Використовуйте цей помічник, щоб вибрати місце відбору для всіх переміщень, що належать до однієї операції (зокрема в інших переміщеннях).\n"
 "                    Місце призначення наведених нижче переміщень буде оновлено вибраним місцем."
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,help:stock_checkout_sync.field_stock_move_checkout_sync__location_id
+msgid "Destination location where all the moves will be sent."
+msgstr "Місце призначення, куди буде надіслано всі переміщення."
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,help:stock_checkout_sync.field_stock_move_checkout_sync__dest_picking_id
+msgid "Destination operation for these moves."
+msgstr "Операція призначення для цих переміщень."
+
+#. module: stock_checkout_sync
+#: model:ir.model,name:stock_checkout_sync.model_stock_move_checkout_sync
+msgid "Stock Move Checkout Sync"
+msgstr "Синхронізація checkout складського переміщення"
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,help:stock_checkout_sync.field_stock_picking__can_sync_to_checkout
+msgid ""
+"Technical field. Indicates if the button to synchronize the destination "
+"towards a checkout location is visible."
+msgstr ""
+"Технічне поле. Вказує, чи видима кнопка синхронізації місця призначення з "
+"місцем видачі."
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,help:stock_checkout_sync.field_stock_move_checkout_sync__picking_type_location_id
+msgid ""
+"This is the default source location when this operation is manually created."
+" However, it is possible to change it afterwards or that the routes use "
+"another one by default."
+msgstr ""
+"Це стандартна вихідна локація, коли операцію створено вручну. Її можна "
+"змінити пізніше, або маршрути можуть за замовчуванням використовувати іншу "
+"локацію."
+
+#. module: stock_checkout_sync
+#: model:ir.model.fields,help:stock_checkout_sync.field_stock_picking_type__checkout_sync
+msgid ""
+"When checked, a button on transfers allow users to select a single location "
+"for all moves reaching this operation type. On selection, all the move lines"
+" are updated with the same destination."
+msgstr ""
+"Якщо позначено, кнопка в передачах дозволяє користувачам вибрати одну "
+"локацію для всіх переміщень, що досягають цього типу операції. Після вибору "
+"всі рядки переміщень отримують однакову цільову локацію."

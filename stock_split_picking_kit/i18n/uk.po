@@ -27,3 +27,8 @@ msgstr "Кількість комплектів за переміщенням"
 #: model:ir.model.fields.selection,name:stock_split_picking_kit.selection__stock_split_picking__mode__kit_quantity
 msgid "Quantity of kits"
 msgstr "Кількість комплектів"
+
+#. module: stock_split_picking_kit
+#: model:ir.model,name:stock_split_picking_kit.model_stock_split_picking
+msgid "Split a picking"
+msgstr "Розділити переміщення"

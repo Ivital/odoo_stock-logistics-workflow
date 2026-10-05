@@ -22,3 +22,9 @@ msgstr "Партії видимі"
 #: model:ir.model.fields,field_description:stock_picking_return_lot.field_stock_return_picking_line__lot_id
 msgid "Lot/Serial Number"
 msgstr "Партія/серійний номер"
+
+#. module: stock_picking_return_lot
+#: model:ir.model.constraint,message:stock_picking_return_lot.constraint_stock_return_picking_line_lot_id_move_id_uniq
+msgid "The same lot cannot be used on multiple lines for the same move"
+msgstr ""
+"Той самий лот не можна використовувати в кількох рядках одного переміщення"

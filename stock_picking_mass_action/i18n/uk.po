@@ -101,7 +101,7 @@ msgstr "Переміщення"
 #. module: stock_picking_mass_action
 #: model:ir.model,name:stock_picking_mass_action.model_stock_picking_mass_action
 msgid "Stock Picking Mass Action"
-msgstr ""
+msgstr "Масова дія складського переміщення"
 
 #. module: stock_picking_mass_action
 #: model:ir.actions.act_window,name:stock_picking_mass_action.action_transfer
@@ -121,6 +121,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__confirm
 msgid "check this box if you want to mark as Todo the selected Pickings."
 msgstr ""
+"Позначте, якщо хочете відмітити вибрані комплектування як «До виконання»."
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__transfer
@@ -129,6 +130,9 @@ msgid ""
 " You'll not have the possibility to realize a partial transfer.\n"
 " If you want  to do that, please do it manually on the picking form."
 msgstr ""
+"Позначте цей прапорець, якщо хочете перемістити всі вибрані складські операції.\n"
+" Часткове переміщення буде недоступне.\n"
+" Якщо воно потрібне, виконайте його вручну у формі складської операції."
 
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form

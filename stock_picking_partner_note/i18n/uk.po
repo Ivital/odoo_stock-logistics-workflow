@@ -115,3 +115,21 @@ msgstr "Тип примітки партнера"
 #: model:ir.actions.act_window,name:stock_picking_partner_note.stock_picking_note_types_act_window
 msgid "Stock Picking Note Types"
 msgstr "Типи приміток переміщення"
+
+#. module: stock_picking_partner_note
+#: model:ir.model.fields,help:stock_picking_partner_note.field_res_config_settings__check_note_already_in_use
+msgid ""
+"Prevent the update or deletion of a note that is already in use by more than"
+" one contact."
+msgstr ""
+"Заборонити оновлення або видалення примітки, яка вже використовується більш "
+"ніж одним контактом."
+
+#. module: stock_picking_partner_note
+#: model:ir.model.fields,help:stock_picking_partner_note.field_stock_picking_type__partner_note_type_ids
+msgid ""
+"Type of note with customer preferences on how his products are prepared for "
+"delivery."
+msgstr ""
+"Тип примітки з уподобаннями клієнта щодо підготовки його товарів до "
+"доставки."

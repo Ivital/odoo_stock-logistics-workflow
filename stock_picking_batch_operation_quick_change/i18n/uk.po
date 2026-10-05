@@ -96,3 +96,15 @@ msgstr "Нове місце призначення"
 #: model:ir.model.fields,field_description:stock_picking_batch_operation_quick_change.field_stock_picking_batch_operation_wizard__old_location_dest_id
 msgid "Old destination location"
 msgstr "Старе місце призначення"
+
+#. module: stock_picking_batch_operation_quick_change
+#: model:ir.model.fields,help:stock_picking_batch_operation_quick_change.field_stock_picking_batch_operation_wizard__change_all
+msgid "Check if you want change all operations without filter by old location"
+msgstr ""
+"Позначте, якщо хочете змінювати всі операції без фільтрації за старим "
+"розташуванням"
+
+#. module: stock_picking_batch_operation_quick_change
+#: model:ir.model,name:stock_picking_batch_operation_quick_change.model_stock_picking_batch_operation_wizard
+msgid "Stock Picking Batch Operation Wizard"
+msgstr "Майстер пакетної операції складського переміщення"

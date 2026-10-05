@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_type_force_move_type.field_stock_picking_type__force_move_type
 msgid "Force Shipping Policy"
 msgstr "Примусова політика доставки"
+
+#. module: stock_picking_type_force_move_type
+#: model:ir.model.fields,help:stock_picking_type_force_move_type.field_stock_picking_type__force_move_type
+msgid ""
+"Force the shipping policy of the operation type (ignore the one from "
+"procurement group)"
+msgstr ""
+"Примусово використовувати політику доставки типу операції (ігнорувати "
+"політику з групи забезпечення)"

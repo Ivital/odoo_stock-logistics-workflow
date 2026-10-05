@@ -33,3 +33,13 @@ msgstr "(Контрагент) Попередження у переміщенн�
 #: model:ir.model.fields,field_description:stock_warn_option.field_warn_option__allowed_warning_usage
 msgid "Allowed Warning Usage"
 msgstr "Дозволене використання попереджень"
+
+#. module: stock_warn_option
+#: model:ir.model.fields,help:stock_warn_option.field_warn_option__allowed_warning_usage
+msgid "Allows to choose where the message can be selected"
+msgstr "Дозволяє вибирати, де може бути вибране повідомлення"
+
+#. module: stock_warn_option
+#: model:ir.model,name:stock_warn_option.model_warn_option
+msgid "Warn Option"
+msgstr "Параметр попередження"

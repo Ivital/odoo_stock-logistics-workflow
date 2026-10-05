@@ -34,3 +34,12 @@ msgstr "Сьогодні"
 #: model_terms:ir.ui.view,arch_db:stock_move_line_dates.stock_move_line_view_search
 msgid "Tomorrow"
 msgstr "Завтра"
+
+#. module: stock_move_line_dates
+#: model:ir.model.fields,help:stock_move_line_dates.field_stock_move_line__date_deadline
+msgid ""
+"In case of outgoing flow, validate the transfer before this date to allow to deliver at promised date to the customer.\n"
+"        In case of incoming flow, validate the transfer before this date in order to have these products in stock at the date promised by the supplier"
+msgstr ""
+"Для вихідного потоку підтвердьте переміщення до цієї дати, щоб доставити клієнту в обіцяну дату.\n"
+"Для вхідного потоку підтвердьте переміщення до цієї дати, щоб товари були на складі в дату, обіцяну постачальником."

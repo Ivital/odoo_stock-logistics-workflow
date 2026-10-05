@@ -24,3 +24,8 @@ msgstr "Автоматичне виставлення рахунку для па
 #: model:ir.model.fields.selection,name:stock_picking_batch_account_sale_type.selection__res_partner__batch_picking_auto_invoice__sale_type
 msgid "By sale type"
 msgstr "За типом продажу"
+
+#. module: stock_picking_batch_account_sale_type
+#: model:ir.model,name:stock_picking_batch_account_sale_type.model_sale_order_type
+msgid "Type of sale order"
+msgstr "Тип замовлення на продаж"

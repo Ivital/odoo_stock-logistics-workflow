@@ -48,3 +48,26 @@ msgstr "Кількість копій"
 #: model:ir.model.fields,field_description:stock_picking_batch_print_pickings.field_stock_picking_type__print_documents_from_batch
 msgid "Print Documents From Batch"
 msgstr "Друкувати документи з пакета"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.model.fields,help:stock_picking_batch_print_pickings.field_stock_picking_type__print_documents_from_batch
+msgid ""
+"'Pickings': Print only pickings are in batch.\n"
+"'Invoices': Print only invoices related with pickings are in batch.\n"
+"'Invoices and Pickings': Print pickings are in batch and invoices related with pickings are in batch.\n"
+"'Invoices or Pickings': Print invoices related with pickings are in batch but if picking has not invoice, then print picking."
+msgstr ""
+"'Складські операції': друкувати лише складські операції в пакеті.\n"
+"'Рахунки-фактури': друкувати лише рахунки-фактури, пов'язані зі складськими операціями в пакеті.\n"
+"'Рахунки-фактури та складські операції': друкувати складські операції в пакеті та пов'язані з ними рахунки-фактури.\n"
+"'Рахунки-фактури або складські операції': друкувати пов'язані рахунки-фактури, але якщо складська операція не має рахунку-фактури — друкувати її."
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.model.fields,help:stock_picking_batch_print_pickings.field_stock_picking_type__number_copies_pickings
+msgid "Number of copies per picking"
+msgstr "Кількість копій на переміщення"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.model.fields,help:stock_picking_batch_print_pickings.field_stock_picking_batch__print_documents
+msgid "Print Pickings from Batch"
+msgstr "Друкувати переміщення з пакета"

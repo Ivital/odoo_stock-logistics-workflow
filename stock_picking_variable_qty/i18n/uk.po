@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_variable_qty.field_stock_picking_type__propagate_variable_qty
 msgid "Propagate variable quantities"
 msgstr "Поширювати змінні кількості"
+
+#. module: stock_picking_variable_qty
+#: model:ir.model.fields,help:stock_picking_variable_qty.field_stock_picking_type__propagate_variable_qty
+msgid "Update chained destination moves with the quantity actually processed."
+msgstr ""
+"Оновлювати пов’язані переміщення призначення фактично обробленою кількістю."

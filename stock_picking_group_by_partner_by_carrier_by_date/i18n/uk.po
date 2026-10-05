@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier_by_date.field_stock_picking_type__group_pickings_by_date
 msgid "Group pickings by date"
 msgstr "Групувати переміщення за датою"
+
+#. module: stock_picking_group_by_partner_by_carrier_by_date
+#: model:ir.model.fields,help:stock_picking_group_by_partner_by_carrier_by_date.field_stock_picking_type__group_pickings_by_date
+msgid "If `Group pickings` is enabled they will be grouped by date too."
+msgstr ""
+"Якщо ввімкнено «Групувати комплектування», вони також групуватимуться за "
+"датою."

@@ -195,3 +195,47 @@ msgstr "Деякі вибрані переміщення відхилено"
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
 msgid "Sorry, nothing to be done here."
 msgstr "Вибачте, тут нічого робити."
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,help:stock_picking_group_by_partner_by_carrier.field_stock_picking_type__group_pickings_one
+#: model:ir.model.fields,help:stock_picking_group_by_partner_by_carrier.field_stock_warehouse__group_shippings_one
+msgid ""
+"Also group transfers with a shipping policy 'When all products are ready'. "
+"Transfers with different shipping policies are not grouped"
+msgstr ""
+"Також групувати переміщення з політикою доставки «Коли всі товари готові». "
+"Переміщення з різними політиками доставки не групуються"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_report_stock_report_deliveryslip
+msgid "Delivery Slip Report"
+msgstr "Звіт накладної доставки"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,help:stock_picking_group_by_partner_by_carrier.field_stock_rule__propagate_original_group
+msgid ""
+"Propagate the original group on the created moves. This allows to prevent "
+"merging pulled moves. This allows to cancel a SO without canceling pulled "
+"moves from other SO (as we ensure they are not merged). You likely need this"
+" option if you don't propagate the merged procurement group to the pulled "
+"moves."
+msgstr ""
+"Поширювати початкову групу на створені переміщення. Це дає змогу запобігти "
+"об'єднанню pull-переміщень. Так можна скасувати замовлення на продаж, не "
+"скасовуючи pull-переміщення з інших замовлень на продаж (оскільки вони не "
+"об'єднуються). Імовірно, цей параметр потрібен, якщо об'єднана група "
+"закупівель не поширюється на pull-переміщення."
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model,name:stock_picking_group_by_partner_by_carrier.model_stock_picking_merge
+msgid "Stock Picking Merge"
+msgstr "Об’єднання складських переміщень"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,help:stock_picking_group_by_partner_by_carrier.field_stock_picking__canceled_by_merge
+msgid ""
+"Technical field. Indicates the transfer is canceled because it was left "
+"empty after a manual merge."
+msgstr ""
+"Технічне поле. Вказує, що переміщення скасовано, бо після ручного об’єднання"
+" воно залишилося порожнім."

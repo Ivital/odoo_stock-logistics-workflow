@@ -72,3 +72,13 @@ msgstr "Максимальна загальна вага нетто"
 #: model:ir.model.fields,help:stock_split_picking_dimension.field_stock_split_picking__user_volume_uom_id
 msgid "Packaging volume unit of measure"
 msgstr "Одиниця вимірювання об'єму пакування"
+
+#. module: stock_split_picking_dimension
+#: model:ir.model.fields,help:stock_split_picking_dimension.field_stock_split_picking__max_volume
+msgid "Volume in default system volume unit of measure"
+msgstr "Обсяг у типовій системній одиниці виміру обсягу"
+
+#. module: stock_split_picking_dimension
+#: model:ir.model.fields,help:stock_split_picking_dimension.field_stock_split_picking__max_weight
+msgid "Weight in default system weight unit of measure"
+msgstr "Вага у типовій системній одиниці виміру ваги"

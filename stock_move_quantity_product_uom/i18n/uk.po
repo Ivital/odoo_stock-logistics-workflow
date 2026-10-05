@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_move_quantity_product_uom.field_stock_move__quantity_product_uom
 msgid "Quantity in Product UoM"
 msgstr "Кількість в од. виміру товару"
+
+#. module: stock_move_quantity_product_uom
+#: model:ir.model.fields,help:stock_move_quantity_product_uom.field_stock_move__quantity_product_uom
+msgid "Quantity, expressed in the default UoM of the product"
+msgstr "Кількість у типовій одиниці виміру товару"

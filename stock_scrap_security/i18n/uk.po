@@ -22,3 +22,8 @@ msgstr "Керівник"
 #: model:res.groups,name:stock_scrap_security.group_stock_scrap_user
 msgid "User"
 msgstr "Користувач"
+
+#. module: stock_scrap_security
+#: model:ir.module.category,name:stock_scrap_security.module_category_stock_scrap
+msgid "Stock Scrap"
+msgstr "Списання запасів"

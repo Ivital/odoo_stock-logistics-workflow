@@ -110,3 +110,11 @@ msgstr "Додати переміщення джерела"
 #: model:ir.model.fields,field_description:stock_move_source_relocate.field_stock_source_relocate__relocate_location_id
 msgid "Relocate Location"
 msgstr "Місце переміщення"
+
+#. module: stock_move_source_relocate
+#: model:ir.model.fields,help:stock_move_source_relocate.field_stock_source_relocate__rule_domain
+msgid ""
+"Domain based on Stock Moves, to define if the rule is applicable or not."
+msgstr ""
+"Домен на основі складських переміщень, що визначає, чи застосовується "
+"правило."

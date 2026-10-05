@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.actions.server,name:product_cost_price_avco_sync.action_force_avco_sync
 msgid "Recompute average cost from here"
 msgstr "Перерахувати середню вартість звідси"
+
+#. module: product_cost_price_avco_sync
+#: model:ir.model,name:product_cost_price_avco_sync.model_product_cost_price_avco_sync_mixin
+msgid "Product Cost Price AVCO Sync Mixin"
+msgstr "Міксин синхронізації собівартості AVCO товару"

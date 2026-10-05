@@ -22,3 +22,14 @@ msgstr "Перше переміщення"
 #: model:ir.model.fields,field_description:stock_move_propagate_first_move.field_stock_move__first_picking_type_id
 msgid "Original Operation Type"
 msgstr "Початковий тип операції"
+
+#. module: stock_move_propagate_first_move
+#: model:ir.model.fields,help:stock_move_propagate_first_move.field_stock_move__first_picking_type_id
+msgid "Picking type of the original move which generated this one."
+msgstr ""
+"Тип комплектування початкового переміщення, яке створило це переміщення."
+
+#. module: stock_move_propagate_first_move
+#: model:ir.model.fields,help:stock_move_propagate_first_move.field_stock_move__first_move_id
+msgid "The original move which generated this one."
+msgstr "Початкове переміщення, що створило це."

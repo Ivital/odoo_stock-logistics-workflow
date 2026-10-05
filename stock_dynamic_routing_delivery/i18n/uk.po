@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_dynamic_routing_delivery.field_stock_routing_rule__propagate_carrier
 msgid "Propagation of carrier"
 msgstr "Поширення перевізника"
+
+#. module: stock_dynamic_routing_delivery
+#: model:ir.model,name:stock_dynamic_routing_delivery.model_stock_routing_rule
+msgid "Stock Dynamic Routing Rule"
+msgstr "Правило динамічної маршрутизації запасів"
+
+#. module: stock_dynamic_routing_delivery
+#: model:ir.model.fields,help:stock_dynamic_routing_delivery.field_stock_routing_rule__propagate_carrier
+msgid "When ticked, carrier of shipment will be propagated."
+msgstr "Якщо позначено, перевізник відправлення буде передаватися."

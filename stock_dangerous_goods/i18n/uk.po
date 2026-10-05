@@ -23,3 +23,9 @@ msgstr "Має товари LQ"
 #: model:ir.model.fields,field_description:stock_dangerous_goods.field_stock_move_line__has_lq_products
 msgid "Is Lq Product"
 msgstr "Є товаром LQ"
+
+#. module: stock_dangerous_goods
+#: model:ir.model.fields,help:stock_dangerous_goods.field_product_product__is_lq_product
+#: model:ir.model.fields,help:stock_dangerous_goods.field_stock_move_line__has_lq_products
+msgid "Whether this product is a Limited Quantity product or not"
+msgstr "Вказує, чи є цей товар товаром обмеженої кількості"

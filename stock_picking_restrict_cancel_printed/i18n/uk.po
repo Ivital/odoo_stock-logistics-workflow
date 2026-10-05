@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_restrict_cancel_printed.field_stock_picking_type__restrict_cancel_if_printed
 msgid "Restrict cancelation if printed"
 msgstr "Обмежити скасування, якщо надруковано"
+
+#. module: stock_picking_restrict_cancel_printed
+#: model:ir.model.fields,help:stock_picking_restrict_cancel_printed.field_stock_picking_type__restrict_cancel_if_printed
+msgid ""
+"When checked, the cancelation of a printed transfer will not be allowed"
+msgstr "Якщо позначено, скасування надрукованого переміщення буде заборонено"

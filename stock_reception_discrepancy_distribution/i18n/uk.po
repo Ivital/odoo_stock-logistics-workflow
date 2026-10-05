@@ -97,3 +97,8 @@ msgstr "Змінити кількість у переміщеннях призн
 #: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
 msgid "Destination stock moves"
 msgstr "Переміщення запасів призначення"
+
+#. module: stock_reception_discrepancy_distribution
+#: model:ir.model,name:stock_reception_discrepancy_distribution.model_stock_reception_discrepancy_distribution_wiz
+msgid "Destination moves to change quantities"
+msgstr "Переміщення призначення для зміни кількостей"

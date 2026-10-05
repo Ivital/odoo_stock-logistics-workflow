@@ -83,3 +83,8 @@ msgstr "Рядки набору товарів"
 #: model:ir.actions.act_window,name:stock_product_set.act_open_wizard_product_set_add_from_picking
 msgid "Add a set in a picking"
 msgstr "Додати набір у переміщення"
+
+#. module: stock_product_set
+#: model:ir.model,name:stock_product_set.model_stock_product_set_wizard
+msgid "Wizard model to add product set into a picking form"
+msgstr "Майстер додавання набору товарів у форму переміщення"

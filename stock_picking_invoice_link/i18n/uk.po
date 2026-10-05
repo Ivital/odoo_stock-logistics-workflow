@@ -64,3 +64,22 @@ msgstr "Кількість рахунків"
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_move_line__move_line_ids
 msgid "Related Stock Moves"
 msgstr "Пов’язані рухи запасів"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,help:stock_picking_invoice_link.field_account_bank_statement_line__picking_ids
+#: model:ir.model.fields,help:stock_picking_invoice_link.field_account_move__picking_ids
+msgid ""
+"Related pickings (only when the invoice has been generated from a sale "
+"order)."
+msgstr ""
+"Пов’язані складські переміщення (лише якщо рахунок створено із замовлення на"
+" продаж)."
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,help:stock_picking_invoice_link.field_account_move_line__move_line_ids
+msgid ""
+"Related stock moves (only when the invoice has been generated from a sale "
+"order)."
+msgstr ""
+"Пов’язані складські переміщення (лише якщо рахунок створено із замовлення на"
+" продаж)."

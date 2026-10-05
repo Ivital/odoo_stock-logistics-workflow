@@ -122,3 +122,18 @@ msgstr "Детальні операції"
 #: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__should_replenish
 msgid "Replenish Quantities"
 msgstr "Поповнити кількості"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model,name:stock_picking_whole_scrap.model_wiz_stock_picking_scrap
+msgid "Picking Whole Scrap"
+msgstr "Повне списання переміщення"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,help:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__should_replenish
+msgid "Trigger replenishment for scrapped products"
+msgstr "Запускати поповнення для списаних товарів"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model,name:stock_picking_whole_scrap.model_wiz_stock_picking_scrap_line
+msgid "Wizard lines for picking whole scrap"
+msgstr "Рядки майстра повного списання переміщення"

@@ -17,3 +17,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_batch_invoice_frequency.field_sale_invoice_frequency__automatic_batch_invoicing
 msgid "Automatic Batch Invoicing"
 msgstr "Автоматичне пакетне виставлення рахунків"
+
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model.fields,help:stock_picking_batch_invoice_frequency.field_sale_invoice_frequency__automatic_batch_invoicing
+msgid ""
+"If checked, the invoices will be created and posted in stock picking batches"
+" when validated."
+msgstr ""
+"Якщо позначено, рахунки створюватимуться й проводитимуться в пакетах "
+"складських комплектувань під час підтвердження."
+
+#. module: stock_picking_batch_invoice_frequency
+#: model:ir.model,name:stock_picking_batch_invoice_frequency.model_sale_invoice_frequency
+msgid "Invoicing frequency for Customers"
+msgstr "Періодичність виставлення рахунків клієнтам"

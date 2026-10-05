@@ -27,3 +27,8 @@ msgstr "Тип складського пристрою"
 #: model:ir.model.fields.selection,name:stock_picking_batch_creation_split_kit.selection__stock_device_type__split_mode__kit_quantity
 msgid "Kit Quantity"
 msgstr "Кількість комплекту"
+
+#. module: stock_picking_batch_creation_split_kit
+#: model:ir.model,name:stock_picking_batch_creation_split_kit.model_make_picking_batch
+msgid "Make a batch picking wizard"
+msgstr "Майстер створення пакетного переміщення"

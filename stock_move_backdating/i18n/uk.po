@@ -77,3 +77,12 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:stock_move_backdating.field_stock_quant__date_backdating
 msgid "Actual Inventory Date"
 msgstr "Фактична дата інвентаризації"
+
+#. module: stock_move_backdating
+#: model:ir.model.fields,help:stock_move_backdating.field_stock_picking__date_backdating
+#: model:ir.model.fields,help:stock_move_backdating.field_stock_scrap__date_backdating
+msgid ""
+"The Actual Movement Date of the Operations only if they have all the same "
+"value."
+msgstr ""
+"Фактична дата переміщення операцій, лише якщо для всіх них вона однакова."

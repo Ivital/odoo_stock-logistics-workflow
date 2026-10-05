@@ -92,3 +92,8 @@ msgstr ""
 "Для переміщення не було явно зазначено жодної відібраної кількості.\n"
 "                            Odoo обробить усі зарезервовані кількості.\n"
 "                            Продовжити?"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model:ir.model,name:stock_picking_immediate_transfer_warning.model_stock_immediate_transfer_warning_line
+msgid "Immediate Transfer Warning Line"
+msgstr "Рядок попередження про негайне переміщення"

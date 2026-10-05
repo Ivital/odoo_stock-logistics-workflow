@@ -26,3 +26,13 @@ msgstr "Динамічна маршрутизація"
 #: model_terms:ir.ui.view,arch_db:stock_move_source_relocate_dynamic_routing.view_stock_routing_form
 msgid "Source Relocation"
 msgstr "Переміщення джерела"
+
+#. module: stock_move_source_relocate_dynamic_routing
+#: model:ir.model,name:stock_move_source_relocate_dynamic_routing.model_stock_routing
+msgid "Stock Dynamic Routing"
+msgstr "Динамічна маршрутизація запасів"
+
+#. module: stock_move_source_relocate_dynamic_routing
+#: model:ir.model,name:stock_move_source_relocate_dynamic_routing.model_stock_source_relocate
+msgid "Stock Move Source Relocate"
+msgstr "Переміщення джерела складського переміщення"

@@ -30,7 +30,7 @@ msgstr "Дозволити заблоковане"
 #. module: stock_lock_lot
 #: model:res.groups,name:stock_lock_lot.group_lock_lot
 msgid "Allow to block/unblock Serial Numbers/Lots"
-msgstr ""
+msgstr "Дозволити блокування/розблокування серійних номерів/партій"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_lot__message_attachment_count
@@ -70,6 +70,9 @@ msgid ""
 "This means they will not be available for use in stock moves or other "
 "operations"
 msgstr ""
+"Якщо позначено, майбутні серійні номери/партії за замовчуванням "
+"створюватимуться заблокованими. Це означає, що їх не можна буде "
+"використовувати у складських переміщеннях чи інших операціях."
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,help:stock_lock_lot.field_stock_lot__message_needaction
@@ -84,12 +87,12 @@ msgstr ""
 #. module: stock_lock_lot
 #: model:ir.model.fields,help:stock_lock_lot.field_stock_location__allow_locked
 msgid "Indicates whether the location allows receipt of blocked batches"
-msgstr ""
+msgstr "Вказує, чи дозволяє місце приймання заблокованих пакетів"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,help:stock_lock_lot.field_stock_lot__locked
 msgid "Indicates whether this lot is blocked for use."
-msgstr ""
+msgstr "Позначає, чи заблоковано цю партію для використання."
 
 #. module: stock_lock_lot
 #: model:ir.model,name:stock_lock_lot.model_stock_location
@@ -160,13 +163,13 @@ msgstr ""
 #: model:mail.message.subtype,description:stock_lock_lot.mt_lock_lot
 #: model:mail.message.subtype,name:stock_lock_lot.mt_lock_lot
 msgid "Serial Number/lot blocked"
-msgstr ""
+msgstr "Серійний номер/партію заблоковано"
 
 #. module: stock_lock_lot
 #: model:mail.message.subtype,description:stock_lock_lot.mt_unlock_lot
 #: model:mail.message.subtype,name:stock_lock_lot.mt_unlock_lot
 msgid "Serial Number/lot unblocked"
-msgstr ""
+msgstr "Серійний номер/партію розблоковано"
 
 #. module: stock_lock_lot
 #. odoo-python

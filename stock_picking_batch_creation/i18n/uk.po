@@ -267,3 +267,118 @@ msgstr "Обмежити тим самим пріоритетом"
 #: model:ir.model.fields,field_description:stock_picking_batch_creation.field_make_picking_batch__split_picking_exceeding_limits
 msgid "Split pickings exceeding limits"
 msgstr "Розділити переміщення, що перевищують ліміти"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__group_pickings_by_partner
+msgid "All the pickings related to one partner will be put into the same bins"
+msgstr ""
+"Усі комплектування, пов’язані з одним партнером, буде розміщено в тих самих "
+"комірках"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__stock_device_type_ids
+msgid "Default list of eligible device types when creating a batch transfer"
+msgstr ""
+"Список допустимих типів пристроїв за замовчуванням при створенні пакетного "
+"переміщення"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__picking_type_ids
+msgid ""
+"Default list of eligible operation types when creating a batch transfer"
+msgstr ""
+"Типовий перелік допустимих типів операцій під час створення пакетного "
+"переміщення"
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__picking_locking_mode
+msgid ""
+"Define the way the system will search and lock the pickings. In the same "
+"time, picking already locked by another transaction will be skipped. This "
+"should reduce the risk of deadlocks if 2 users try to create a batch at the "
+"same time."
+msgstr ""
+"Визначає, як система шукатиме й блокуватиме складські операції. Водночас "
+"операції, уже заблоковані іншою транзакцією, буде пропущено. Це має зменшити"
+" ризик взаємних блокувань, якщо 2 користувачі одночасно намагаються створити"
+" пакет."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__split_picking_exceeding_limits
+msgid ""
+"If checked, the pickings exceeding the maximum number of lines, volume or "
+"weight of available devices will be split into multiple pickings to respect "
+"the limits. If unchecked, the pickings exceeding the limits will not be "
+"added to the batch. The limits are defined by the limits of the last "
+"available devices."
+msgstr ""
+"Якщо позначено, складські операції, які перевищують максимальну кількість "
+"рядків, об'єм або вагу доступних пристроїв, буде розділено на кілька "
+"операцій для дотримання обмежень. Якщо не позначено, операції, що "
+"перевищують ліміти, не додаватимуться до пакета. Ліміти визначаються "
+"обмеженнями останніх доступних пристроїв."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__add_picking_list_in_error
+msgid ""
+"If not suitable device is provided for the pickings candidates, the error "
+"message will contain the list of the pickings names. In somecases, this list"
+" can be very long. That's why this option is uncheckedby default."
+msgstr ""
+"Якщо для кандидатів складських операцій не надано відповідного пристрою, "
+"повідомлення про помилку міститиме список назв складських операцій. У деяких"
+" випадках цей список може бути дуже довгим. Саме тому цей параметр типово "
+"вимкнено."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_picking_batch__batch_nbr_bins
+msgid "Indicates the bins occupied by the pickings on the device."
+msgstr "Вказує комірки, зайняті відбором на пристрої."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_picking__nbr_picking_lines
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_picking_batch__batch_nbr_lines
+msgid "Indicates the picking lines ready for preparation."
+msgstr "Позначає рядки переміщення, готові до підготовки."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_picking_batch__batch_volume
+msgid "Indicates total volume of transfers included."
+msgstr "Позначає загальний обсяг включених переміщень."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_picking_batch__batch_weight
+msgid "Indicates total weight of transfers included."
+msgstr "Позначає загальну вагу включених переміщень."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__restrict_to_same_partner
+msgid ""
+"Only the pickings with the same partner will be selected for this batch."
+msgstr ""
+"Для цього пакета буде вибрано лише комплектування з тим самим партнером."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__restrict_to_same_priority
+msgid ""
+"Only the pickings with the same priority will be selected for this batch."
+msgstr ""
+"Для цього пакета буде вибрано лише комплектування з однаковим пріоритетом."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_make_picking_batch__maximum_number_of_preparation_lines
+msgid "Set to 0 to disable."
+msgstr "Встановіть 0, щоб вимкнути."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_device_type__max_volume
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_device_type__min_volume
+msgid "Volume in default system volume unit of measure. Set to 0 to disable."
+msgstr ""
+"Об’єм у типовій системній одиниці вимірювання об’єму. Встановіть 0, щоб "
+"вимкнути."
+
+#. module: stock_picking_batch_creation
+#: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_device_type__max_weight
+msgid "Weight in default system weight unit of measure. Set to 0 to disable."
+msgstr "Вага в системній одиниці виміру ваги за замовчуванням. 0 — вимкнути."

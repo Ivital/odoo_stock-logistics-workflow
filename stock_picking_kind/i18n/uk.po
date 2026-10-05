@@ -68,3 +68,8 @@ msgstr "Приймання від постачальників"
 #: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
 msgid "Supplier Returns"
 msgstr "Повернення постачальнику"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields,help:stock_picking_kind.field_stock_picking__picking_kind
+msgid "Indicate the kind of picking based on its locations"
+msgstr "Позначає тип складського переміщення залежно від його місць"

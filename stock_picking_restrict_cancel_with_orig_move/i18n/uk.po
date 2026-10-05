@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_restrict_cancel_with_orig_move.field_stock_picking_type__restrict_cancel_with_orig_move
 msgid "Restrict Cancellation with Original Moves"
 msgstr "Обмежити скасування при початкових переміщеннях"
+
+#. module: stock_picking_restrict_cancel_with_orig_move
+#: model:ir.model.fields,help:stock_picking_restrict_cancel_with_orig_move.field_stock_picking_type__restrict_cancel_with_orig_move
+msgid ""
+"If enabled, cancellation of a picking is blocked when any of its moves has a"
+" previous move that is not yet cancelled or done."
+msgstr ""
+"Якщо ввімкнено, скасування комплектування блокується, якщо будь-яке його "
+"переміщення має попереднє переміщення, яке ще не скасовано й не виконано."

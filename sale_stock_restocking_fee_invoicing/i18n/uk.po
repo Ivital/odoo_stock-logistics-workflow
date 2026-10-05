@@ -59,3 +59,52 @@ msgid ""
 msgstr ""
 "Позначте цей прапорець, якщо хочете стягувати з клієнта комісію в разі "
 "повернення товару"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_move__charge_restocking_fee
+msgid "If checked your customer will be charged for accepting returned goods."
+msgstr ""
+"Якщо позначено, з клієнта буде стягнуто плату за прийняття повернених "
+"товарів."
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_move__picking_kind
+msgid "Indicate the kind of picking based on its locations"
+msgstr "Позначає тип складського переміщення залежно від його місць"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_config_settings__restocking_fee_product_id
+msgid ""
+"It is possible to specify on a customer whether fees must be charged for "
+"returning goods. In the case where fees are to be applied, the product "
+"specified here is added to the sale order to charge these fees."
+msgstr ""
+"Для клієнта можна вказати, чи потрібно стягувати комісію за повернення "
+"товарів. Якщо комісію потрібно застосувати, указаний тут товар додається до "
+"замовлення на продаж для нарахування цієї комісії."
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_company__restocking_fee_product_id
+msgid ""
+"It is possible to specify on a customer whether restocking fee must be "
+"charged for returning goods. In the case where fee are to be applied, the "
+"product specified here is added to the sale order to charge these restocking"
+" fee."
+msgstr ""
+"Для клієнта можна вказати, чи потрібно стягувати комісію за повернення "
+"товару на склад. Якщо таку комісію потрібно застосувати, указаний тут товар "
+"додається до замовлення на продаж для її нарахування."
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:product.template,name:sale_stock_restocking_fee_invoicing.product_restocking_fee_product_template
+msgid "Restocking fee"
+msgstr "Плата за повернення на склад"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_return_picking__charge_restocking_fee
+msgid ""
+"Tick this box if you wish to charge your customer a fee in case of return of"
+" goods. Default value comes from the customer info."
+msgstr ""
+"Позначте, якщо потрібно стягувати з клієнта плату у разі повернення товару. "
+"Типове значення береться з даних клієнта."

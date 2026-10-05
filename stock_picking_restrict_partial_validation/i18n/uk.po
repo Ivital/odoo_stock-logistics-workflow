@@ -17,3 +17,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_restrict_partial_validation.field_stock_picking_type__restrict_partial_validation
 msgid "Restrict Partial Validation"
 msgstr "Обмежити часткову перевірку"
+
+#. module: stock_picking_restrict_partial_validation
+#: model:ir.model.fields,help:stock_picking_restrict_partial_validation.field_stock_picking_type__restrict_partial_validation
+msgid ""
+"Transfers of this operation type can only be validated when they are fully "
+"reserved and processed in full: validation is blocked while the transfer is "
+"not in Ready state, and when any line is processed for less than the "
+"demanded quantity, so no backorder can be created."
+msgstr ""
+"Переміщення цього типу операції можна підтвердити лише тоді, коли вони "
+"повністю зарезервовані й повністю оброблені: підтвердження блокується, доки "
+"переміщення не перебуває у стані «Готово» і якщо будь-який рядок оброблено в"
+" кількості, меншій за потрібну. Тому зворотне замовлення створити неможливо."

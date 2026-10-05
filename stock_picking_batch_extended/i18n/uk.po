@@ -264,3 +264,66 @@ msgstr "Ця примітка з’явиться у друкованій фор
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_product_product__description_warehouse
 msgid "Warehouse Description"
 msgstr "Опис складу"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_to_batch__batch_max_pickings
+msgid ""
+"A transfer will not be added to batches that will exceed this number of transfers.\n"
+"Leave this value as '0' if no transfer limit."
+msgstr ""
+"Переміщення не додаватиметься до пакетів, якщо вони перевищать цю кількість переміщень.\n"
+"Залиште '0', якщо ліміту немає."
+
+#. module: stock_picking_batch_extended
+#: model:ir.model,name:stock_picking_batch_extended.model_stock_picking_batch_creator_group_field
+msgid "Batch Picking Creator Group Field"
+msgstr "Поле групи створювача пакетних переміщень"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_to_batch__notes
+msgid "Free form remarks"
+msgstr "Довільні примітки"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__sequence
+msgid "Group by picking field"
+msgstr "Групувати за полем переміщення"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_to_batch__group_field_ids
+msgid ""
+"If set any, multiple batch picking will be created, one per group field"
+msgstr ""
+"Якщо задано, буде створено кілька пакетних комплектувань — по одному на "
+"кожне поле групування"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_batch__active_picking_ids
+msgid "List of active picking managed by this batch."
+msgstr "Список активних переміщень, якими керує цей пакет."
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_to_batch__name
+msgid "Name of the batch picking"
+msgstr "Назва пакетного переміщення"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model,name:stock_picking_batch_extended.model_report_stock_picking_batch_extended_report_batch_picking
+msgid "Report for Batch Picking"
+msgstr "Звіт для пакетного переміщення"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_batch__date
+msgid "date on which the batch picking is to be processed"
+msgstr "дата, коли пакетне переміщення має бути оброблено"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_picking_batch__notes
+msgid "free form remarks"
+msgstr "довільні примітки"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_warehouse__default_user_id
+msgid "the user to which the batch pickings are assigned by default"
+msgstr ""
+"Користувач, якому за замовчуванням призначаються пакетні комплектування"

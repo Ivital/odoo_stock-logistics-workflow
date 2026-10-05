@@ -73,3 +73,13 @@ msgid ""
 msgstr ""
 "Ще є <i>очікувані вихідні переміщення</i>. Після натискання "
 "<i>підтвердити</i> пакет буде підтверджено"
+
+#. module: stock_picking_batch_validate_confirm
+#: model:res.groups,name:stock_picking_batch_validate_confirm.stock_picking_batch_validate_confirm_group
+msgid "Validate Incomplete Batches"
+msgstr "Перевірити неповні пакети"
+
+#. module: stock_picking_batch_validate_confirm
+#: model:ir.model,name:stock_picking_batch_validate_confirm.model_stock_picking_batch_confirm
+msgid "Wizard Batch Confirm"
+msgstr "Майстер пакетного підтвердження"

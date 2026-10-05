@@ -106,3 +106,15 @@ msgstr "Складське переміщення"
 #: model_terms:ir.ui.view,arch_db:stock_picking_operation_quick_change.stock_picking_operation_change_location_view
 msgid "or"
 msgstr "або"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model.fields,help:stock_picking_operation_quick_change.field_stock_picking_operation_wizard__change_all
+msgid "Check if you want change all operations without filter by old location"
+msgstr ""
+"Позначте, якщо хочете змінювати всі операції без фільтрації за старим "
+"розташуванням"
+
+#. module: stock_picking_operation_quick_change
+#: model:ir.model,name:stock_picking_operation_quick_change.model_stock_picking_operation_wizard
+msgid "Stock Picking Operation Wizard"
+msgstr "Майстер операції складського переміщення"
