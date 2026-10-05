@@ -87,3 +87,13 @@ msgstr "Надлишкова кількість"
 #: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
 msgid "or"
 msgstr "або"
+
+#. module: stock_reception_discrepancy_distribution
+#: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.view_picking_form
+msgid "Change qty on dest moves"
+msgstr "Змінити кількість у переміщеннях призначення"
+
+#. module: stock_reception_discrepancy_distribution
+#: model_terms:ir.ui.view,arch_db:stock_reception_discrepancy_distribution.stock_reception_discrepancy_distribution_wiz
+msgid "Destination stock moves"
+msgstr "Переміщення запасів призначення"

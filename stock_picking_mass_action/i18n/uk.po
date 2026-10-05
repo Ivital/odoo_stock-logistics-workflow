@@ -39,7 +39,7 @@ msgstr ""
 #: model:ir.cron,cron_name:stock_picking_mass_action.ir_cron_check_assign_all
 #: model:ir.cron,name:stock_picking_mass_action.ir_cron_check_assign_all
 msgid "Check Availability of Stock Picking"
-msgstr ""
+msgstr "Перевірити доступність складського переміщення"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__create_uid

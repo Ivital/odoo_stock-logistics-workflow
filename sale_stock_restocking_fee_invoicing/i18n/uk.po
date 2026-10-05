@@ -38,3 +38,24 @@ msgstr "Є поверненням клієнта"
 #: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_res_config_settings__restocking_fee_product_id
 msgid "Restocking Fee Product"
 msgstr "Товар плати за повернення на склад"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,field_description:sale_stock_restocking_fee_invoicing.field_sale_order_line__is_restocking_fee
+msgid "Is Restocking Fee"
+msgstr "Є комісією за поповнення запасу"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model_terms:ir.ui.view,arch_db:sale_stock_restocking_fee_invoicing.res_config_settings_view_form
+msgid "Product which is the fee for restocking returned goods"
+msgstr "Товар, що є комісією за поповнення повернених товарів"
+
+#. module: sale_stock_restocking_fee_invoicing
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_partner__charge_restocking_fee
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_res_users__charge_restocking_fee
+#: model:ir.model.fields,help:sale_stock_restocking_fee_invoicing.field_stock_return_picking_line__charge_restocking_fee
+msgid ""
+"Tick this box if you wish to charge your customer a fee in case of return of"
+" goods"
+msgstr ""
+"Позначте цей прапорець, якщо хочете стягувати з клієнта комісію в разі "
+"повернення товару"

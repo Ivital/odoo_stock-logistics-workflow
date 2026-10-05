@@ -126,3 +126,72 @@ msgstr "Допустимі комплектування"
 #: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
 msgid "With carrier:"
 msgstr "З перевізником:"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid "<span invisible=\"nothing_todo\">or</span>"
+msgstr "<span invisible=\"nothing_todo\">або</span>"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.report_delivery_document
+msgid "All ordered items have been delivered."
+msgstr "Усі замовлені товари доставлено."
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking__canceled_by_merge
+msgid "Canceled By Merge"
+msgstr "Скасовано через об’єднання"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__discarded_picking_ids
+msgid "Discarded Pickings"
+msgstr "Відхилені комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
+msgid "Forecasted grouping"
+msgstr "Групування прогнозу"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid ""
+"Pickings should match these parameters: picking type is groupable, state not"
+" cancelled or done, not printed."
+msgstr ""
+"Переміщення мають відповідати цим параметрам: тип переміщення допускає "
+"групування, стан не скасовано й не завершено, не надруковано."
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_rule__propagate_original_group
+msgid "Propagate Original Group"
+msgstr "Поширювати початкову групу"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.report_delivery_document
+msgid "Remaining to deliver:"
+msgstr "Залишилося доставити:"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__selected_picking_ids
+msgid "Selected Pickings"
+msgstr "Вибрані комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_merge__show_discarded_detail
+msgid "Show Discarded Detail"
+msgstr "Показувати деталі відхилених"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model:ir.model.fields,field_description:stock_picking_group_by_partner_by_carrier.field_stock_picking_type__show_group_pickings
+msgid "Show Group Pickings"
+msgstr "Показувати групові комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.view_stock_picking_groupby_form
+msgid "Some pickings you've selected are discarded"
+msgstr "Деякі вибрані переміщення відхилено"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#: model_terms:ir.ui.view,arch_db:stock_picking_group_by_partner_by_carrier.stock_picking_merge_wiz_info
+msgid "Sorry, nothing to be done here."
+msgstr "Вибачте, тут нічого робити."

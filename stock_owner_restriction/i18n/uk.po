@@ -36,3 +36,18 @@ msgstr "Партнер комплектування"
 #: model:ir.model.fields,field_description:stock_owner_restriction.field_stock_move_line__restricted_owner_id
 msgid "Restricted Owner"
 msgstr "Обмежений власник"
+
+#. module: stock_owner_restriction
+#: model:ir.model.fields.selection,name:stock_owner_restriction.selection__stock_picking_type__owner_restriction__partner_or_unassigned
+msgid "Picking partner or unassigned owner"
+msgstr "Контрагент переміщення або непризначений власник"
+
+#. module: stock_owner_restriction
+#: model:ir.model.fields.selection,name:stock_owner_restriction.selection__stock_picking_type__owner_restriction__standard_behavior
+msgid "Standard behavior"
+msgstr "Стандартна поведінка"
+
+#. module: stock_owner_restriction
+#: model:ir.model.fields.selection,name:stock_owner_restriction.selection__stock_picking_type__owner_restriction__unassigned_owner
+msgid "Unassigned owner"
+msgstr "Непризначений власник"

@@ -79,3 +79,45 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:stock_partner_delivery_window.field_partner_delivery_time_window__time_window_weekday_ids
 msgid "Time Window Weekday"
 msgstr "День тижня часового вікна"
+
+#. module: stock_partner_delivery_window
+#: model:ir.model.fields,help:stock_partner_delivery_window.field_res_partner__delivery_time_preference
+#: model:ir.model.fields,help:stock_partner_delivery_window.field_res_users__delivery_time_preference
+msgid ""
+"Define the scheduling preference for delivery orders:\n"
+"\n"
+"* Any time: Do not postpone deliveries\n"
+"* Fixed time windows: Postpone deliveries to the next preferred time window\n"
+"* Weekdays: Postpone deliveries to the next weekday"
+msgstr ""
+"Визначте переваги планування для замовлень на доставку:\n"
+"\n"
+"* Будь-коли: не відкладати доставки\n"
+"* Фіксовані часові вікна: переносити доставки на наступне бажане часове вікно\n"
+"* Дні тижня: переносити доставки на наступний вибраний день тижня"
+
+#. module: stock_partner_delivery_window
+#: model:ir.model.fields.selection,name:stock_partner_delivery_window.selection__res_partner__delivery_time_preference__time_windows
+msgid "Fixed time windows"
+msgstr "Фіксовані часові вікна"
+
+#. module: stock_partner_delivery_window
+#: model:ir.model.fields,field_description:stock_partner_delivery_window.field_stock_picking__partner_delivery_window_warning
+msgid "Partner Delivery Window Warning"
+msgstr "Попередження вікна доставки контрагента"
+
+#. module: stock_partner_delivery_window
+#: model:ir.model.fields.selection,name:stock_partner_delivery_window.selection__res_partner__delivery_time_preference__workdays
+msgid "Weekdays (Monday to Friday)"
+msgstr "Будні (понеділок–п’ятниця)"
+
+#. module: stock_partner_delivery_window
+#: model:ir.model.fields,help:stock_partner_delivery_window.field_partner_delivery_time_window__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+"Під час друку документів та експорту/імпорту даних, значення часу вираховується відносно часового поясу.\n"
+"Якщо часовий пояс не встановлено, використовується UTC (Узгоджений світовий час).\n"
+"У будь-якому іншому випадку значення часу обчислюються відповідно до зсуву часу вашого веб-клієнта."

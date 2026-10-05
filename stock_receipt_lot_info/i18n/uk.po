@@ -17,3 +17,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_receipt_lot_info.field_stock_move_line__show_lots_text
 msgid "Show Lots Text"
 msgstr "Показувати текст лотів"
+
+#. module: stock_receipt_lot_info
+#: model:ir.model.fields,field_description:stock_receipt_lot_info.field_stock_move_line__lot_alert_date
+msgid "Lot/Serial Alert Date"
+msgstr "Дата попередження партії/серійного номера"
+
+#. module: stock_receipt_lot_info
+#: model:ir.model.fields,field_description:stock_receipt_lot_info.field_stock_move_line__lot_use_date
+msgid "Lot/Serial Best before Date"
+msgstr "Дата придатності партії/серійного номера"
+
+#. module: stock_receipt_lot_info
+#: model:ir.model.fields,field_description:stock_receipt_lot_info.field_stock_move_line__lot_removal_date
+msgid "Lot/Serial Removal Date"
+msgstr "Дата вилучення партії/серійного номера"

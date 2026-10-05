@@ -40,7 +40,7 @@ msgstr ""
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_product_category__lot_default_locked
 msgid "Block new Serial Numbers/lots"
-msgstr ""
+msgstr "Блокувати нові серійні номери/партії"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_lot__locked

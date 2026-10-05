@@ -83,3 +83,13 @@ msgstr "Одиниця вимірювання"
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
 msgid "or"
 msgstr "або"
+
+#. module: stock_split_picking
+#: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__move
+msgid "One picking per move"
+msgstr "Одне комплектування на рух"
+
+#. module: stock_split_picking
+#: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__selection
+msgid "Select move lines to split off"
+msgstr "Вибрати рядки переміщення для відокремлення"

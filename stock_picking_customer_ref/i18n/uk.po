@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_customer_ref.field_stock_picking__client_order_ref
 msgid "Customer Reference"
 msgstr "Посилання клієнта"
+
+#. module: stock_picking_customer_ref
+#: model_terms:ir.ui.view,arch_db:stock_picking_customer_ref.view_picking_internal_search_inh_customerinfo
+msgid "Client order reference"
+msgstr "Посилання на замовлення клієнта"

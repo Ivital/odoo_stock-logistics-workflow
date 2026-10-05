@@ -33,3 +33,13 @@ msgstr "Запланувати партії"
 #: model:ir.model.fields,field_description:stock_picking_batch_planner.field_stock_picking_type__plan_batch
 msgid "Planned Batches"
 msgstr "Заплановані пакети"
+
+#. module: stock_picking_batch_planner
+#: model:ir.model.fields,field_description:stock_picking_batch_planner.field_stock_picking_type__auto_batch_original
+msgid "Automatic Batches (original value)"
+msgstr "Автоматичні пакети (початкове значення)"
+
+#. module: stock_picking_batch_planner
+#: model:ir.model.fields,field_description:stock_picking_batch_planner.field_stock_picking_batch__origin_batches_count
+msgid "Origin batches count"
+msgstr "Кількість початкових партій"

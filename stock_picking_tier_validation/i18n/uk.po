@@ -83,3 +83,19 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:stock_picking_tier_validation.field_stock_picking__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: stock_picking_tier_validation
+#: model:ir.model.fields,help:stock_picking_tier_validation.field_stock_picking__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: stock_picking_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_picking_tier_validation.view_picking_internal_search
+msgid "Transfers to review"
+msgstr "Переміщення на перевірку"
+
+#. module: stock_picking_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_picking_tier_validation.view_picking_internal_search
+msgid "Transfers validated and ready to be done"
+msgstr "Переміщення перевірено та готово до виконання"

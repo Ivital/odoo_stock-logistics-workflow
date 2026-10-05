@@ -34,3 +34,28 @@ msgstr "Фактична дата"
 #: model:ir.model.fields,field_description:stock_move_actual_date.field_stock_scrap__is_editable_actual_date
 msgid "Is Editable"
 msgstr "Редагується"
+
+#. module: stock_move_actual_date
+#: model:ir.model.fields,field_description:stock_move_actual_date.field_stock_move__actual_date_source
+msgid "Actual Date Source"
+msgstr "Джерело фактичної дати"
+
+#. module: stock_move_actual_date
+#: model:ir.model.fields,help:stock_move_actual_date.field_stock_actual_date_mixin__actual_date
+#: model:ir.model.fields,help:stock_move_actual_date.field_stock_picking__actual_date
+#: model:ir.model.fields,help:stock_move_actual_date.field_stock_scrap__actual_date
+msgid ""
+"If set, the value is propagated to the related journal entries as the date."
+msgstr ""
+"Якщо встановлено, значення буде передано пов'язаним журнальним записам як "
+"дата."
+
+#. module: stock_move_actual_date
+#: model_terms:ir.ui.view,arch_db:stock_move_actual_date.view_stock_quantity_history
+msgid "Inventory as of Actual Date"
+msgstr "Інвентаризація на фактичну дату"
+
+#. module: stock_move_actual_date
+#: model_terms:ir.ui.view,arch_db:stock_move_actual_date.view_stock_quantity_history
+msgid "Valuation as of Actual Date"
+msgstr "Оцінка на фактичну дату"

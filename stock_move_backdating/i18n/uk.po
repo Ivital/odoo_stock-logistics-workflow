@@ -72,3 +72,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:stock_move_backdating.field_fill_date_backdating__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: stock_move_backdating
+#: model:ir.model.fields,field_description:stock_move_backdating.field_stock_quant__date_backdating
+msgid "Actual Inventory Date"
+msgstr "Фактична дата інвентаризації"

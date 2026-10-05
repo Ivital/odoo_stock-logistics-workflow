@@ -33,3 +33,18 @@ msgstr "Документи доставки/рахунки"
 #: model:ir.model.fields,field_description:stock_picking_batch_print_pickings.field_stock_picking_batch__print_documents
 msgid "Print Documents"
 msgstr "Друкувати документи"
+
+#. module: stock_picking_batch_print_pickings
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_print_pickings.view_picking_type_form_inherit_stock_picking_batch_print_pickings
+msgid "Number of Copies per Picking"
+msgstr "Кількість копій на переміщення"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.model.fields,field_description:stock_picking_batch_print_pickings.field_stock_picking_type__number_copies_pickings
+msgid "Number of copies"
+msgstr "Кількість копій"
+
+#. module: stock_picking_batch_print_pickings
+#: model:ir.model.fields,field_description:stock_picking_batch_print_pickings.field_stock_picking_type__print_documents_from_batch
+msgid "Print Documents From Batch"
+msgstr "Друкувати документи з пакета"

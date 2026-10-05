@@ -57,3 +57,19 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form
 msgid "Validate"
 msgstr "Підтвердити"
+
+#. module: stock_picking_batch_validate_confirm
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form
+msgid ""
+"<i>* You have not enough permissions to validate this batch as it is</i>"
+msgstr ""
+"<i>* У вас недостатньо прав для підтвердження цієї партії, оскільки вона</i>"
+
+#. module: stock_picking_batch_validate_confirm
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_validate_confirm.stock_picking_batch_confirm_view_form
+msgid ""
+"There are <i>pending origin moves</i> yet. By clickcing on <i>validate</i>, "
+"batch will be validated"
+msgstr ""
+"Ще є <i>очікувані вихідні переміщення</i>. Після натискання "
+"<i>підтвердити</i> пакет буде підтверджено"

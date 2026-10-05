@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_type_bypass_reservation.stock_move_line_view_search
 msgid "Phantom reservation"
 msgstr "Фантомне резервування"
+
+#. module: stock_picking_type_bypass_reservation
+#: model:ir.model.fields,field_description:stock_picking_type_bypass_reservation.field_stock_picking_type__bypass_reservation
+msgid "Reserve over availability"
+msgstr "Резервувати понад доступність"

@@ -93,3 +93,34 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:stock_scrap_tier_validation.field_stock_scrap__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: stock_scrap_tier_validation
+#: model:ir.model.fields,help:stock_scrap_tier_validation.field_stock_scrap__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: stock_scrap_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_scrap_tier_validation.view_stock_scrap_filter
+msgid "My Scraps to review"
+msgstr "Мої списання на перевірку"
+
+#. module: stock_scrap_tier_validation
+#: model_terms:ir.ui.view,arch_db:stock_scrap_tier_validation.view_stock_scrap_filter
+msgid "Scraps validated and ready to be confirmed"
+msgstr "Списання перевірено та готово до підтвердження"
+
+#. module: stock_scrap_tier_validation
+#: model:mail.message.subtype,name:stock_scrap_tier_validation.stock_scrap_tier_validation_accepted
+msgid "Tier Validation Accepted Notification"
+msgstr "Сповіщення про прийняття багаторівневої перевірки"
+
+#. module: stock_scrap_tier_validation
+#: model:mail.message.subtype,name:stock_scrap_tier_validation.stock_scrap_tier_validation_rejected
+msgid "Tier Validation Rejected Notification"
+msgstr "Сповіщення про відхилення багаторівневої перевірки"
+
+#. module: stock_scrap_tier_validation
+#: model:mail.message.subtype,name:stock_scrap_tier_validation.stock_scrap_tier_validation_requested
+msgid "Tier Validation Requested"
+msgstr "Запитано багаторівневу перевірку"

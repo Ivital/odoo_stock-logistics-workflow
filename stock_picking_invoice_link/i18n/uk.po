@@ -54,3 +54,13 @@ msgstr "Кількість комплектувань"
 #: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_move__picking_ids
 msgid "Related Pickings"
 msgstr "Пов'язані комплектування"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_stock_picking__invoice_count
+msgid "Number of Invoices"
+msgstr "Кількість рахунків"
+
+#. module: stock_picking_invoice_link
+#: model:ir.model.fields,field_description:stock_picking_invoice_link.field_account_move_line__move_line_ids
+msgid "Related Stock Moves"
+msgstr "Пов’язані рухи запасів"

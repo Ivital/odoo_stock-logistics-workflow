@@ -112,3 +112,13 @@ msgstr "Причина списання"
 #: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__uom_id
 msgid "Unit of Measure"
 msgstr "Одиниця вимірювання"
+
+#. module: stock_picking_whole_scrap
+#: model_terms:ir.ui.view,arch_db:stock_picking_whole_scrap.view_stock_picking_scrap_form
+msgid "Detailed Operations"
+msgstr "Детальні операції"
+
+#. module: stock_picking_whole_scrap
+#: model:ir.model.fields,field_description:stock_picking_whole_scrap.field_wiz_stock_picking_scrap_line__should_replenish
+msgid "Replenish Quantities"
+msgstr "Поповнити кількості"

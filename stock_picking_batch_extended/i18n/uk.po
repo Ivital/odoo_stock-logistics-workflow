@@ -198,3 +198,69 @@ msgstr "Використовувати пакетну перевірку OCA"
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.view_picking_internal_search
 msgid "Without batch"
 msgstr "Без пакета"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.report_batch_picking
+msgid "<strong>Printed by:</strong>"
+msgstr "<strong>Надруковано:</strong>"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.res_config_settings_view_form
+msgid ">Apply OCA batch validation"
+msgstr ">Застосувати пакетну перевірку OCA"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.res_config_settings_view_form
+msgid "Adds extra fields and functionalities to the batch picking form"
+msgstr "Додає додаткові поля та функції до форми пакетного переміщення"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_batch_form
+msgid "All undone pickings from this batch will be removed, are you sure?"
+msgstr ""
+"Усі незавершені переміщення з цього пакета буде видалено. Ви впевнені?"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,help:stock_picking_batch_extended.field_stock_move__batch_id
+msgid "Batch associated to this transfer"
+msgstr "Пакет, пов'язаний із цим переміщенням"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_to_batch__batch_by_group
+msgid "Create batch pickings grouped by fields"
+msgstr "Створити пакетні переміщення, згруповані за полями"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_to_batch_form
+msgid "Create multiple batch picking grouped by..."
+msgstr "Створити кілька пакетних переміщень, згрупованих за..."
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_picking_to_batch_form
+msgid "Keep empty for automatic sequence"
+msgstr "Залиште порожнім для автоматичної послідовності"
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch_creator_group_field__picking_to_batch_id
+msgid "Picking To Batch"
+msgstr "Комплектування до партії"
+
+#. module: stock_picking_batch_extended
+#: model:ir.actions.server,name:stock_picking_batch_extended.action_print_batch_delivery_slip
+msgid "Print Delivery Slip"
+msgstr "Друкувати накладну"
+
+#. module: stock_picking_batch_extended
+#: model:ir.actions.server,name:stock_picking_batch_extended.action_print_batch_picking_operations
+msgid "Print Picking Operations"
+msgstr "Друкувати операції переміщення"
+
+#. module: stock_picking_batch_extended
+#: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.product_normal_form_view
+msgid "This note will show up on the batch picking printout."
+msgstr "Ця примітка з’явиться у друкованій формі пакетного переміщення."
+
+#. module: stock_picking_batch_extended
+#: model:ir.model.fields,field_description:stock_picking_batch_extended.field_product_product__description_warehouse
+msgid "Warehouse Description"
+msgstr "Опис складу"

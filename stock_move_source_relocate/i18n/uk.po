@@ -100,3 +100,13 @@ msgstr "Повідомлення правила"
 #: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_search
 msgid "Stock Reservation Rule"
 msgstr "Правило резервування запасів"
+
+#. module: stock_move_source_relocate
+#: model_terms:ir.actions.act_window,help:stock_move_source_relocate.action_stock_source_relocate
+msgid "Add a Source Relocation"
+msgstr "Додати переміщення джерела"
+
+#. module: stock_move_source_relocate
+#: model:ir.model.fields,field_description:stock_move_source_relocate.field_stock_source_relocate__relocate_location_id
+msgid "Relocate Location"
+msgstr "Місце переміщення"

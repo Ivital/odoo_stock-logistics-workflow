@@ -96,3 +96,22 @@ msgstr "Примітка комплектування"
 #: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.view_stock_picking_note_type_form
 msgid "Picking Note Type"
 msgstr "Тип примітки комплектування"
+
+#. module: stock_picking_partner_note
+#: model_terms:ir.ui.view,arch_db:stock_picking_partner_note.res_config_settings_view_form
+msgid ""
+"Add a constraint to check if the picking note is already in use on multiple "
+"partner"
+msgstr ""
+"Додати обмеження для перевірки, чи примітка переміщення вже використовується"
+" в кількох партнерах"
+
+#. module: stock_picking_partner_note
+#: model:ir.model.fields,field_description:stock_picking_partner_note.field_stock_picking_type__partner_note_type_ids
+msgid "Partner Note Type"
+msgstr "Тип примітки партнера"
+
+#. module: stock_picking_partner_note
+#: model:ir.actions.act_window,name:stock_picking_partner_note.stock_picking_note_types_act_window
+msgid "Stock Picking Note Types"
+msgstr "Типи приміток переміщення"

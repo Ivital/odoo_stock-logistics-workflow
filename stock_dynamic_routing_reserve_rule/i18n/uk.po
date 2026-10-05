@@ -23,3 +23,78 @@ msgstr "Правила резервування"
 #: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_src
 msgid ", for locations:"
 msgstr ", для місць:"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_dest
+msgid ""
+", however, has no\n"
+"            reservation rule, which\n"
+"            may lead to inconsistencies in the routing."
+msgstr ""
+", однак не має\n"
+"            правила резервування, що\n"
+"            може призвести до неузгодженостей у маршрутизації."
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_dest
+msgid ""
+".\n"
+"            <br/>\n"
+"            The origin operation type"
+msgstr ""
+".\n"
+"            <br/>\n"
+"            Початковий тип операції"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_src
+msgid ""
+".\n"
+"            <br/>\n"
+"            This dynamic routing may change moves' operation types to"
+msgstr ""
+".\n"
+"            <br/>\n"
+"            Ця динамічна маршрутизація може змінити типи операцій переміщень на"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_dest
+msgid ""
+".\n"
+"            This new operation type has reservation rules in"
+msgstr ""
+".\n"
+"            Цей новий тип операції має правила резервування в"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model:ir.model.fields,field_description:stock_dynamic_routing_reserve_rule.field_stock_routing__reserve_rule_warning
+msgid "Reserve Rule Warning"
+msgstr "Попередження правила резервування"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_src
+msgid "Warning: the origin operation type"
+msgstr "Попередження: початковий тип операції"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_dest
+msgid ""
+"Warning: this dynamic routing may change moves' operation\n"
+"            type to"
+msgstr ""
+"Попередження: ця динамічна маршрутизація може змінити тип операції\n"
+"            переміщень на"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_src
+msgid "has reservation rules in"
+msgstr "має правила резервування в"
+
+#. module: stock_dynamic_routing_reserve_rule
+#: model_terms:ir.ui.view,arch_db:stock_dynamic_routing_reserve_rule.routing_rule_reserve_rule_warning_src
+msgid ""
+"which does not have a reservation rule. It may lead\n"
+"            to inconsistencies in the routing."
+msgstr ""
+"яке не має правила резервування. Це може призвести\n"
+"            до неузгодженостей у маршрутизації."

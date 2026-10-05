@@ -130,3 +130,18 @@ msgstr "Правило маршрутизації"
 #: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing__rule_ids
 msgid "Routing Rules"
 msgstr "Правила маршрутизації"
+
+#. module: stock_dynamic_routing
+#: model_terms:ir.actions.act_window,help:stock_dynamic_routing.action_stock_routing
+msgid "Add a Dynamic Routing"
+msgstr "Додати динамічну маршрутизацію"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_picking__canceled_by_routing
+msgid "Canceled By Routing"
+msgstr "Скасовано маршрутизацією"
+
+#. module: stock_dynamic_routing
+#: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_routing_rule__rule_domain
+msgid "Source Routing Domain"
+msgstr "Домен вихідної маршрутизації"

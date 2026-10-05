@@ -101,3 +101,56 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__sn_search_product_by_field
 msgid "Search product by field"
 msgstr "Шукати товар за полем"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Field to search products</span>"
+msgstr "<span class=\"o_form_label\">Поле пошуку товарів</span>"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">File column index for package</span>"
+msgstr "<span class=\"o_form_label\">Індекс стовпця файлу для пакунка</span>"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">File column index for products</span>"
+msgstr "<span class=\"o_form_label\">Індекс стовпця файлу для товарів</span>"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">File column index for serial number</span>"
+msgstr ""
+"<span class=\"o_form_label\">Індекс стовпця файлу для серійного "
+"номера</span>"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.stock_picking_import_serial_number_wiz
+msgid "Choose a file to import..."
+msgstr "Виберіть файл для імпорту..."
+
+#. module: stock_picking_import_serial_number
+#: model:ir.model.fields,field_description:stock_picking_import_serial_number.field_stock_picking_import_serial_number_wiz__overwrite_serial
+msgid "Overwrite Serial"
+msgstr "Перезаписати серійний номер"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "Select the field to search products"
+msgstr "Виберіть поле для пошуку товарів"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "Select the index file column which contains the package info"
+msgstr "Виберіть стовпець індексного файлу з інформацією про пакунок"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "Select the index file column which contains the product info"
+msgstr "Виберіть стовпець індексного файлу з інформацією про товар"
+
+#. module: stock_picking_import_serial_number
+#: model_terms:ir.ui.view,arch_db:stock_picking_import_serial_number.res_config_settings_view_form
+msgid "Select the index file column which contains the serial numbers info"
+msgstr ""
+"Виберіть стовпець індексного файлу, що містить інформацію про серійні номери"

@@ -76,3 +76,19 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:stock_picking_immediate_transfer_warning.view_immediate_transfer_warning
 msgid "Process"
 msgstr "Обробити"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model:ir.model.fields,field_description:stock_picking_immediate_transfer_warning.field_stock_immediate_transfer_warning__immediate_transfer_warning_line_ids
+msgid "Immediate Transfer Warning Lines"
+msgstr "Рядки попередження негайного переміщення"
+
+#. module: stock_picking_immediate_transfer_warning
+#: model_terms:ir.ui.view,arch_db:stock_picking_immediate_transfer_warning.view_immediate_transfer_warning
+msgid ""
+"No quantities have been explicitly picked for\n"
+"                            the transfer/s. Odoo will process all reserved\n"
+"                            quantities. Do you want to proceed?"
+msgstr ""
+"Для переміщення не було явно зазначено жодної відібраної кількості.\n"
+"                            Odoo обробить усі зарезервовані кількості.\n"
+"                            Продовжити?"

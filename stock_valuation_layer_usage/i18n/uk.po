@@ -110,3 +110,33 @@ msgstr "Використання шару оцінки"
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__usage_ids
 msgid "Valuation Usage"
 msgstr "Використання оцінки"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__dest_stock_valuation_layer_id
+msgid "Destination Stock Valuation Layer"
+msgstr "Шар оцінки запасів призначення"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_quantity
+msgid "Incoming Usage quantity"
+msgstr "Кількість вхідного використання"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_value
+msgid "Incoming Usage value"
+msgstr "Значення вхідного використання"
+
+#. module: stock_valuation_layer_usage
+#: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer__incoming_usage_ids
+msgid "Incoming Valuation Usage"
+msgstr "Вхідне використання оцінки"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_usage_pivot
+msgid "Stock Valuation Layer Usage Analysis"
+msgstr "Аналіз використання шару оцінки запасів"
+
+#. module: stock_valuation_layer_usage
+#: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.view_move_form_inherit
+msgid "Valuation Layers"
+msgstr "Шари оцінки"

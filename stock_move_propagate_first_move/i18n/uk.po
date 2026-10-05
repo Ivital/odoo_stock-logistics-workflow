@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_move_propagate_first_move.field_stock_move__first_move_id
 msgid "First Move"
 msgstr "Перше переміщення"
+
+#. module: stock_move_propagate_first_move
+#: model:ir.model.fields,field_description:stock_move_propagate_first_move.field_stock_move__first_picking_type_id
+msgid "Original Operation Type"
+msgstr "Початковий тип операції"

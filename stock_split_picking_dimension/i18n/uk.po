@@ -52,3 +52,23 @@ msgstr "Одиниці вимірювання ваги"
 #: model:ir.model.fields,field_description:stock_split_picking_dimension.field_stock_split_picking__user_weight_uom_name
 msgid "Weight unit of measure label"
 msgstr "Мітка одиниці вимірювання ваги"
+
+#. module: stock_split_picking_dimension
+#: model:ir.model.fields,field_description:stock_split_picking_dimension.field_stock_split_picking__max_nbr_lines
+msgid "Max number of lines"
+msgstr "Максимальна кількість рядків"
+
+#. module: stock_split_picking_dimension
+#: model:ir.model.fields,field_description:stock_split_picking_dimension.field_stock_split_picking__user_max_volume
+msgid "Maximum total net volume"
+msgstr "Максимальний загальний чистий об’єм"
+
+#. module: stock_split_picking_dimension
+#: model:ir.model.fields,field_description:stock_split_picking_dimension.field_stock_split_picking__user_max_weight
+msgid "Maximum total net weight"
+msgstr "Максимальна загальна вага нетто"
+
+#. module: stock_split_picking_dimension
+#: model:ir.model.fields,help:stock_split_picking_dimension.field_stock_split_picking__user_volume_uom_id
+msgid "Packaging volume unit of measure"
+msgstr "Одиниця вимірювання об'єму пакування"

@@ -32,3 +32,19 @@ msgstr "Немає повідомлення"
 #: model:ir.model.fields,field_description:stock_picking_warn_message.field_stock_picking__picking_warn
 msgid "Picking Warn"
 msgstr "Попередження комплектування"
+
+#. module: stock_picking_warn_message
+#: model:ir.model.fields,field_description:stock_picking_warn_message.field_stock_picking__picking_warn_msg
+msgid "Picking Warn Msg"
+msgstr "Попередження комплектування"
+
+#. module: stock_picking_warn_message
+#: model:ir.model.fields,help:stock_picking_warn_message.field_stock_picking__picking_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+"Вибір опції «Попередження» повідомить користувача цим повідомленням; вибір "
+"«Блокувальне повідомлення» спричинить виняток із цим повідомленням і "
+"заблокує процес. Текст повідомлення потрібно вказати в наступному полі."

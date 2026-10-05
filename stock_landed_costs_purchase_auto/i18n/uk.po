@@ -23,3 +23,8 @@ msgstr "Додаткові витрати"
 #: model:ir.model.fields,field_description:stock_landed_costs_purchase_auto.field_stock_landed_cost__purchase_id
 msgid "Purchase"
 msgstr "Закупівля"
+
+#. module: stock_landed_costs_purchase_auto
+#: model:ir.model.fields,field_description:stock_landed_costs_purchase_auto.field_purchase_order__landed_cost_number
+msgid "Landed Cost Number"
+msgstr "Номер додаткових витрат"

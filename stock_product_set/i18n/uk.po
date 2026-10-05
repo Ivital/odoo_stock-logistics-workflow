@@ -78,3 +78,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:stock_product_set.field_stock_product_set_wizard__product_set_line_ids
 msgid "Product set lines"
 msgstr "Рядки набору товарів"
+
+#. module: stock_product_set
+#: model:ir.actions.act_window,name:stock_product_set.act_open_wizard_product_set_add_from_picking
+msgid "Add a set in a picking"
+msgstr "Додати набір у переміщення"

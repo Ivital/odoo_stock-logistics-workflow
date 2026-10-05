@@ -23,3 +23,13 @@ msgstr "Параметр попередження переміщення"
 #: model_terms:ir.ui.view,arch_db:stock_warn_option.stock_warn_option_partner_form
 msgid "Select a warning option"
 msgstr "Виберіть параметр попередження"
+
+#. module: stock_warn_option
+#: model:ir.model.fields.selection,name:stock_warn_option.selection__warn_option__allowed_warning_usage__partner_picking_warn
+msgid "(Partner) Warning on the Picking"
+msgstr "(Контрагент) Попередження у переміщенні"
+
+#. module: stock_warn_option
+#: model:ir.model.fields,field_description:stock_warn_option.field_warn_option__allowed_warning_usage
+msgid "Allowed Warning Usage"
+msgstr "Дозволене використання попереджень"

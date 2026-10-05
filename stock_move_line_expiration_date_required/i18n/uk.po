@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_move_line_expiration_date_required.field_stock_move__all_expiry_dates_set
 msgid "All Expiry Dates Set"
 msgstr "Усі дати закінчення встановлено"
+
+#. module: stock_move_line_expiration_date_required
+#: model_terms:ir.ui.view,arch_db:stock_move_line_expiration_date_required.view_stock_move_operations
+msgid ""
+"You won't be able to confirm the parent picking until all Expiry dates are "
+"set"
+msgstr ""
+"Ви не зможете підтвердити батьківське переміщення, доки не буде задано всі "
+"дати закінчення строку придатності"

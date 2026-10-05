@@ -38,3 +38,33 @@ msgstr "Пряма доставка"
 #: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__supplier_return
 msgid "Supplier Return"
 msgstr "Повернення постачальнику"
+
+#. module: stock_picking_kind
+#: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
+msgid "Customer Deliveries"
+msgstr "Доставки клієнтам"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__customer_out
+msgid "Customer Delivery"
+msgstr "Доставка клієнту"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__drop_shipping_return
+msgid "Drop Shipping Return"
+msgstr "Повернення прямої доставки"
+
+#. module: stock_picking_kind
+#: model:ir.model.fields.selection,name:stock_picking_kind.selection__stock_picking__picking_kind__supplier_in
+msgid "Supplier Reception"
+msgstr "Приймання від постачальника"
+
+#. module: stock_picking_kind
+#: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
+msgid "Supplier Receptions"
+msgstr "Приймання від постачальників"
+
+#. module: stock_picking_kind
+#: model_terms:ir.ui.view,arch_db:stock_picking_kind.view_picking_internal_search
+msgid "Supplier Returns"
+msgstr "Повернення постачальнику"
