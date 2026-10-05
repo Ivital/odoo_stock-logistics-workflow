@@ -327,3 +327,19 @@ msgstr "довільні примітки"
 msgid "the user to which the batch pickings are assigned by default"
 msgstr ""
 "Користувач, якому за замовчуванням призначаються пакетні комплектування"
+
+#. module: stock_picking_batch_extended
+#. odoo-python
+#: code:addons/stock_picking_batch_extended/wizard/stock_picking_to_batch.py:0
+msgid ""
+"All selected pickings are already in a batch picking or are in a wrong "
+"state."
+msgstr ""
+"Усі вибрані переміщення вже входять до пакетного переміщення або мають "
+"неправильний стан."
+
+#. module: stock_picking_batch_extended
+#. odoo-python
+#: code:addons/stock_picking_batch_extended/models/stock_batch_picking.py:0
+msgid "Nothing to print."
+msgstr "Немає чого друкувати."

@@ -175,3 +175,16 @@ msgstr ""
 "Якщо позначено, кнопка в передачах дозволяє користувачам вибрати одну "
 "локацію для всіх переміщень, що досягають цього типу операції. Після вибору "
 "всі рядки переміщень отримують однакову цільову локацію."
+
+#. module: stock_checkout_sync
+#. odoo-python
+#: code:addons/stock_checkout_sync/wizards/stock_move_checkout_sync.py:0
+msgid "<li>%(picking_name)s: %(nb_moves)s move(s)</li>"
+msgstr "<li>%(picking_name)s: %(nb_moves)s переміщення(ь)</li>"
+
+#. module: stock_checkout_sync
+#. odoo-python
+#: code:addons/stock_checkout_sync/wizards/stock_move_checkout_sync.py:0
+msgid "<li><strong>%(picking_name)s: %(nb_moves)s move(s)</strong></li>"
+msgstr ""
+"<li><strong>%(picking_name)s: %(nb_moves)s переміщення(ь)</strong></li>"

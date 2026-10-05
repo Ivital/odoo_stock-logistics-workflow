@@ -52,3 +52,17 @@ msgstr ""
 "Якщо цей параметр не активний ні для товару, ні для його категорії, і товар "
 "є складським, підтвердження пов’язаних складських переміщень буде "
 "заблоковано, якщо після переміщення запас стане від’ємним."
+
+#. module: stock_no_negative
+#. odoo-python
+#: code:addons/stock_no_negative/models/stock_quant.py:0
+msgid ""
+"You cannot validate this stock operation because the stock level of the "
+"product '{name}'{name_lot} would become negative ({q_quantity}) on the stock"
+" location '{complete_name}' and negative stock is not allowed for this "
+"product and/or location."
+msgstr ""
+"Не можна підтвердити цю складську операцію, оскільки рівень запасу товару "
+"'{name}'{name_lot} став би від’ємним ({q_quantity}) у місці зберігання "
+"'{complete_name}', а від’ємні запаси для цього товару та/або місця не "
+"дозволені."

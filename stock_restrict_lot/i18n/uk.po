@@ -23,3 +23,32 @@ msgstr "Партія"
 #: model:ir.model.fields,field_description:stock_restrict_lot.field_stock_picking__restrict_lot_id
 msgid "Restrict Lot"
 msgstr "Обмежити партію"
+
+#. module: stock_restrict_lot
+#. odoo-python
+#: code:addons/stock_restrict_lot/models/stock_move.py:0
+msgid ""
+"Inconsistencies between reserved quant and lot restriction on stock move"
+msgstr ""
+"Невідповідності між зарезервованим квантом і обмеженням партії в складському"
+" переміщенні"
+
+#. module: stock_restrict_lot
+#. odoo-python
+#: code:addons/stock_restrict_lot/models/stock_move.py:0
+msgid ""
+"The lot(s) %(move_line_lot)s being moved is inconsistent with the "
+"restriction on lot %(move_restrict_lot)s set on the move"
+msgstr ""
+"Партія(ї) %(move_line_lot)s, що переміщуються, не узгоджуються з обмеженням "
+"на партію %(move_restrict_lot)s у переміщенні"
+
+#. module: stock_restrict_lot
+#. odoo-python
+#: code:addons/stock_restrict_lot/models/stock_move.py:0
+msgid ""
+"You can't modify the Lot/Serial number because at least one move in the "
+"chain has already been done with another Lot/Serial number."
+msgstr ""
+"Не можна змінити партію/серійний номер, оскільки щонайменше одне переміщення"
+" в ланцюгу вже виконано з іншою партією/серійним номером."

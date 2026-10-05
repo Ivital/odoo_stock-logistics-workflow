@@ -86,3 +86,9 @@ msgid ""
 "value."
 msgstr ""
 "Фактична дата переміщення операцій, лише якщо для всіх них вона однакова."
+
+#. module: stock_move_backdating
+#. odoo-python
+#: code:addons/stock_move_backdating/models/stock_move_line.py:0
+msgid "You can not process an actual movement date in the future."
+msgstr "Не можна обробляти фактичну дату переміщення в майбутньому."

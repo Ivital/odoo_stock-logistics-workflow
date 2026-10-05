@@ -178,6 +178,8 @@ msgid ""
 "The following lots/serial number is blocked and cannot be moved:\n"
 "%(lot)s"
 msgstr ""
+"Такі партії/серійні номери заблоковано й не можна переміщувати:\n"
+"%(lot)s"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_lot__website_message_ids
@@ -193,7 +195,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_lock_lot/models/stock_lot.py:0
 msgid "You are not allowed to block/unblock Serial Numbers/Lots"
-msgstr ""
+msgstr "Вам не дозволено блокувати/розблоковувати серійні номери/партії"
 
 #. module: stock_lock_lot
 #. odoo-python
@@ -202,6 +204,8 @@ msgid ""
 "You are not allowed to block/unblock, there are reserved quantities for "
 "these Serial Numbers/Lots"
 msgstr ""
+"Вам не дозволено блокувати/розблоковувати: для цих серійних номерів/партій є"
+" зарезервовані кількості"
 
 #~ msgid "Display Name"
 #~ msgstr "Назва для відображення"

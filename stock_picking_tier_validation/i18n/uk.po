@@ -99,3 +99,19 @@ msgstr "Переміщення на перевірку"
 #: model_terms:ir.ui.view,arch_db:stock_picking_tier_validation.view_picking_internal_search
 msgid "Transfers validated and ready to be done"
 msgstr "Переміщення перевірено та готово до виконання"
+
+#. module: stock_picking_tier_validation
+#. odoo-python
+#: code:addons/stock_picking_tier_validation/models/stock_picking.py:0
+msgid "A validation process is still open for at least one record."
+msgstr "Для принаймні одного запису ще відкрито процес перевірки."
+
+#. module: stock_picking_tier_validation
+#. odoo-python
+#: code:addons/stock_picking_tier_validation/models/stock_picking.py:0
+msgid ""
+"This action needs to be validated for at least one record. \n"
+"Please request a validation."
+msgstr ""
+"Цю дію потрібно підтвердити щонайменше для одного запису.\n"
+"Будь ласка, запросіть підтвердження."

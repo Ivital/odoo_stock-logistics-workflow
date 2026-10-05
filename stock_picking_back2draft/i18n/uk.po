@@ -17,3 +17,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_back2draft.view_picking_form_reopen
 msgid "Back to draft"
 msgstr "Повернути в чернетку"
+
+#. module: stock_picking_back2draft
+#. odoo-python
+#: code:addons/stock_picking_back2draft/models/stock_move.py:0
+msgid "You can set back to draft only canceled moves"
+msgstr "До чернетки можна повернути лише скасовані переміщення"

@@ -26,3 +26,9 @@ msgid ""
 msgstr ""
 "Ви не зможете підтвердити батьківське переміщення, доки не буде задано всі "
 "дати закінчення строку придатності"
+
+#. module: stock_move_line_expiration_date_required
+#. odoo-python
+#: code:addons/stock_move_line_expiration_date_required/models/stock_picking.py:0
+msgid "The following move lines have no expiration date: %s"
+msgstr "У таких рядках переміщення немає дати закінчення терміну: %s"

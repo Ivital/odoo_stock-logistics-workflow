@@ -22,3 +22,13 @@ msgstr "Перерахувати середню вартість звідси"
 #: model:ir.model,name:product_cost_price_avco_sync.model_product_cost_price_avco_sync_mixin
 msgid "Product Cost Price AVCO Sync Mixin"
 msgstr "Міксин синхронізації собівартості AVCO товару"
+
+#. module: product_cost_price_avco_sync
+#. odoo-python
+#: code:addons/product_cost_price_avco_sync/models/stock_valuation_layer.py:0
+msgid ""
+"The AVCO sync can't be completed, as there's some endless dependency in the "
+"data needed to process it."
+msgstr ""
+"Синхронізацію AVCO неможливо завершити через циклічну залежність у даних, "
+"потрібних для обробки."

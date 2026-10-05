@@ -108,3 +108,20 @@ msgid ""
 msgstr ""
 "Позначте, якщо потрібно стягувати з клієнта плату у разі повернення товару. "
 "Типове значення береться з даних клієнта."
+
+#. module: sale_stock_restocking_fee_invoicing
+#. odoo-python
+#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py:0
+msgid ""
+"No product configured for restocking fee. Please fix the configuration into "
+"stock settings or contact you administrator."
+msgstr ""
+"Товар для плати за поповнення запасу не налаштовано. Виправте конфігурацію в"
+" налаштуваннях складу або зверніться до адміністратора."
+
+#. module: sale_stock_restocking_fee_invoicing
+#. odoo-python
+#: code:addons/sale_stock_restocking_fee_invoicing/models/sale_order.py:0
+msgid "Restocking fee for %(prod_uom_qty)s %(prod_uom)s %(so_line)s"
+msgstr ""
+"Комісія за повернення на склад для %(prod_uom_qty)s %(prod_uom)s %(so_line)s"

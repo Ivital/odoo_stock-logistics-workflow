@@ -118,3 +118,43 @@ msgid ""
 msgstr ""
 "Домен на основі складських переміщень, що визначає, чи застосовується "
 "правило."
+
+#. module: stock_move_source_relocate
+#. odoo-python
+#: code:addons/stock_move_source_relocate/models/stock_source_relocate.py:0
+msgid ""
+"<br/>This rule is applied only if the <strong>domain</strong> matches with "
+"the move."
+msgstr ""
+"<br/>Це правило застосовується лише якщо <strong>домен</strong> відповідає "
+"переміщенню."
+
+#. module: stock_move_source_relocate
+#. odoo-python
+#: code:addons/stock_move_source_relocate/models/stock_source_relocate.py:0
+msgid "Relocate location has to be a sub-location of '{}'."
+msgstr "Місце переміщення має бути підмісцем '{}'."
+
+#. module: stock_move_source_relocate
+#. odoo-python
+#: code:addons/stock_move_source_relocate/models/stock_source_relocate.py:0
+msgid ""
+"When a move with operation type "
+"<strong>{rule.picking_type_id.display_name}</strong> is inside the location "
+"<strong>{rule.location_id.display_name}</strong> and a check of availability"
+" returns no reservation, the move is relocated to the location "
+"<strong>{rule.relocate_location_id.display_name}</strong> (source location "
+"changed).<br/>If a move is partially unavailable, the move is split in two "
+"parts:<ul><li>the available part is adjusted to the reserved quantity, and "
+"its source location stays the same </li><li>the unavailable part is split in"
+" a new move in the relocation location</li></ul>"
+msgstr ""
+"Коли переміщення з типом операції "
+"<strong>{rule.picking_type_id.display_name}</strong> знаходиться в місці "
+"<strong>{rule.location_id.display_name}</strong>, а перевірка доступності не"
+" знаходить резервування, переміщення переноситься до місця "
+"<strong>{rule.relocate_location_id.display_name}</strong> (вихідне місце "
+"змінюється).<br/>Якщо переміщення доступне лише частково, воно розділяється "
+"на дві частини:<ul><li>доступна частина коригується до зарезервованої "
+"кількості, а її вихідне місце залишається без змін </li><li>недоступна "
+"частина виділяється в нове переміщення в місці перенесення</li></ul>"

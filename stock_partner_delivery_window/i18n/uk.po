@@ -126,3 +126,55 @@ msgstr ""
 #: model:ir.model,name:stock_partner_delivery_window.model_partner_delivery_time_window
 msgid "Preferred delivery time windows"
 msgstr "Бажані часові вікна доставки"
+
+#. module: stock_partner_delivery_window
+#. odoo-python
+#: code:addons/stock_partner_delivery_window/models/stock_picking.py:0
+msgid ""
+"No %(date_name)s is set on the picking, cannot check if it is in partner's "
+"delivery window."
+msgstr ""
+"У переміщенні не встановлено %(date_name)s, тому неможливо перевірити, чи "
+"входить воно у вікно доставки партнера."
+
+#. module: stock_partner_delivery_window
+#. odoo-python
+#: code:addons/stock_partner_delivery_window/models/res_partner.py:0
+msgid ""
+"Please define at least one delivery time window or change preference to Any "
+"time"
+msgstr ""
+"Визначте щонайменше одне вікно доставки або змініть уподобання на «Будь-який"
+" час»"
+
+#. module: stock_partner_delivery_window
+#. odoo-python
+#: code:addons/stock_partner_delivery_window/models/stock_picking.py:0
+msgid ""
+"The %(date_name)s is %(date)s (%(tz)s), but the partner is set to prefer deliveries on following time windows:\n"
+"%(window)s"
+msgstr ""
+"%(date_name)s — %(date)s (%(tz)s), але партнер віддає перевагу доставкам у таких часових вікнах:\n"
+"%(window)s"
+
+#. module: stock_partner_delivery_window
+#. odoo-python
+#: code:addons/stock_partner_delivery_window/models/stock_picking.py:0
+msgid ""
+"The %(date_name)s is %(date)s (%(tz)s), but the partner is set to prefer "
+"deliveries on working days."
+msgstr ""
+"%(date_name)s — %(date)s (%(tz)s), але партнер віддає перевагу доставкам у "
+"робочі дні."
+
+#. module: stock_partner_delivery_window
+#. odoo-python
+#: code:addons/stock_partner_delivery_window/models/stock_picking.py:0
+msgid "delivery date"
+msgstr "Дата доставки"
+
+#. module: stock_partner_delivery_window
+#. odoo-python
+#: code:addons/stock_partner_delivery_window/models/stock_picking.py:0
+msgid "scheduled date"
+msgstr "Запланована дата"

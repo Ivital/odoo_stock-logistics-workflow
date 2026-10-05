@@ -30,3 +30,34 @@ msgstr ""
 "повністю зарезервовані й повністю оброблені: підтвердження блокується, доки "
 "переміщення не перебуває у стані «Готово» і якщо будь-який рядок оброблено в"
 " кількості, меншій за потрібну. Тому зворотне замовлення створити неможливо."
+
+#. module: stock_picking_restrict_partial_validation
+#. odoo-python
+#: code:addons/stock_picking_restrict_partial_validation/models/stock_picking.py:0
+msgid ""
+"%(picking)s cannot be validated: %(product)s is reserved beyond the stock "
+"physically available in %(location)s. Correct the stock or the reservation "
+"first."
+msgstr ""
+"%(picking)s не можна підтвердити: %(product)s зарезервовано понад фізично "
+"доступний запас у %(location)s. Спочатку виправте запас або резервування."
+
+#. module: stock_picking_restrict_partial_validation
+#. odoo-python
+#: code:addons/stock_picking_restrict_partial_validation/models/stock_picking.py:0
+msgid ""
+"%(picking)s cannot be validated: this operation type requires the transfer "
+"to be fully reserved before it can be processed."
+msgstr ""
+"%(picking)s не можна підтвердити: цей тип операції вимагає повного "
+"резервування переміщення до обробки."
+
+#. module: stock_picking_restrict_partial_validation
+#. odoo-python
+#: code:addons/stock_picking_restrict_partial_validation/models/stock_picking.py:0
+msgid ""
+"%(picking)s must be processed in full: partial validation is not allowed on "
+"this operation type (%(product)s: %(qty)s of %(demand)s)."
+msgstr ""
+"%(picking)s потрібно обробити повністю: часткове підтвердження не дозволене "
+"для цього типу операції (%(product)s: %(qty)s із %(demand)s)."

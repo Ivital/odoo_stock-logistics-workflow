@@ -27,3 +27,9 @@ msgstr "Друкувати рахунки"
 #: model:ir.model.fields.selection,name:stock_picking_batch_account.selection__res_partner__batch_picking_auto_invoice__yes
 msgid "Yes"
 msgstr "Так"
+
+#. module: stock_picking_batch_account
+#. odoo-python
+#: code:addons/stock_picking_batch_account/models/stock_batch_picking.py:0
+msgid "Nothing to print."
+msgstr "Немає чого друкувати."

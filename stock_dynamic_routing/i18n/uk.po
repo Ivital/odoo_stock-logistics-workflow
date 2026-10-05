@@ -201,3 +201,117 @@ msgid ""
 msgstr ""
 "Технічне поле. Вказує, що переміщення скасовано, бо після динамічної "
 "маршрутизації воно залишилося порожнім."
+
+#. module: stock_dynamic_routing
+#. odoo-python
+#: code:addons/stock_dynamic_routing/models/stock_routing.py:0
+msgid ""
+"<h2>Pull rules:</h2>When a move with operation type "
+"<strong>{routing.picking_type_id.display_name}</strong> has a source "
+"location <strong>{routing.location_id.display_name}</strong> (or a sub-"
+"location), one of these rules can apply (depending of their "
+"domain):<ul>{rule_messages}</ul>"
+msgstr ""
+"<h2>Правила витягування:</h2>Коли переміщення з типом операції "
+"<strong>{routing.picking_type_id.display_name}</strong> має вихідне місце "
+"<strong>{routing.location_id.display_name}</strong> (або дочірнє місце), "
+"може застосуватися одне з цих правил (залежно від їхнього "
+"домену):<ul>{rule_messages}</ul>"
+
+#. module: stock_dynamic_routing
+#. odoo-python
+#: code:addons/stock_dynamic_routing/models/stock_routing.py:0
+msgid ""
+"<h2>Push rules:</h2>When a move with operation type "
+"<strong>{routing.picking_type_id.display_name}</strong> has a destination "
+"location <strong>{routing.location_id.display_name}</strong> (or a sub-"
+"location), one of these rules can apply (depending of their "
+"domain):<ul>{rule_messages}</ul>"
+msgstr ""
+"<h2>Правила проштовхування:</h2>Коли переміщення з типом операції "
+"<strong>{routing.picking_type_id.display_name}</strong> має місце "
+"призначення <strong>{routing.location_id.display_name}</strong> (або дочірнє"
+" місце), може застосуватися одне з цих правил (залежно від їхнього "
+"домену):<ul>{rule_messages}</ul>"
+
+#. module: stock_dynamic_routing
+#. odoo-python
+#: code:addons/stock_dynamic_routing/models/stock_routing.py:0
+msgid ""
+"If the destination of the move is already "
+"<strong>{rule.location_dest_id.display_name}</strong>, the operation type of"
+" the move is changed to "
+"<strong>{rule.picking_type_id.display_name}</strong>.<br/>If the destination"
+" of the move is a parent location of  "
+"<strong>{rule.location_dest_id.display_name}</strong>, the destination is "
+"set to <strong>{rule.location_dest_id.display_name}</strong>  and the "
+"operation type of the move is changed to "
+"<strong>{rule.picking_type_id.display_name}</strong>.<br/>If the destination"
+" of the move is unrelated to  "
+"<strong>{rule.location_dest_id.display_name}</strong>, a new move is added "
+"before, from <strong>{rule.location_src_id.display_name}</strong> to  "
+"<strong>{rule.location_dest_id.display_name}</strong>, using the operation "
+"type  <strong>{rule.picking_type_id.display_name}</strong>."
+msgstr ""
+"Якщо місце призначення переміщення вже є "
+"<strong>{rule.location_dest_id.display_name}</strong>, тип операції "
+"переміщення змінюється на "
+"<strong>{rule.picking_type_id.display_name}</strong>.<br/>Якщо місце "
+"призначення переміщення є батьківським місцем для "
+"<strong>{rule.location_dest_id.display_name}</strong>, місце призначення "
+"встановлюється на <strong>{rule.location_dest_id.display_name}</strong>, а "
+"тип операції переміщення змінюється на "
+"<strong>{rule.picking_type_id.display_name}</strong>.<br/>Якщо місце "
+"призначення переміщення не пов’язане з "
+"<strong>{rule.location_dest_id.display_name}</strong>, перед ним додається "
+"нове переміщення з <strong>{rule.location_src_id.display_name}</strong> до "
+"<strong>{rule.location_dest_id.display_name}</strong> із типом операції "
+"<strong>{rule.picking_type_id.display_name}</strong>."
+
+#. module: stock_dynamic_routing
+#. odoo-python
+#: code:addons/stock_dynamic_routing/models/stock_routing.py:0
+msgid ""
+"If the source of the move is already "
+"<strong>{rule.location_src_id.display_name}</strong> or a sub-location, the "
+"operation type of the move is changed to "
+"<strong>{rule.picking_type_id.display_name}</strong>.<br/>If the source of "
+"the move is outside or a parent location of  "
+"<strong>{rule.location_dest_id.display_name}</strong>, the destination of "
+"the move is set to  <strong>{rule.location_src_id.display_name}</strong>,  a"
+" new move is added after it, from "
+"<strong>{rule.location_src_id.display_name}</strong> to  "
+"<strong>{rule.location_dest_id.display_name}</strong> using the operation "
+"type  <strong>{rule.picking_type_id.display_name}</strong>."
+msgstr ""
+"Якщо вихідне місце переміщення вже є "
+"<strong>{rule.location_src_id.display_name}</strong> або його дочірнім "
+"місцем, тип операції переміщення змінюється на "
+"<strong>{rule.picking_type_id.display_name}</strong>.<br/>Якщо вихідне місце"
+" переміщення знаходиться поза "
+"<strong>{rule.location_dest_id.display_name}</strong> або є його "
+"батьківським місцем, місце призначення переміщення встановлюється на "
+"<strong>{rule.location_src_id.display_name}</strong>, після нього додається "
+"нове переміщення з <strong>{rule.location_src_id.display_name}</strong> до "
+"<strong>{rule.location_dest_id.display_name}</strong> із типом операції "
+"<strong>{rule.picking_type_id.display_name}</strong>."
+
+#. module: stock_dynamic_routing
+#. odoo-python
+#: code:addons/stock_dynamic_routing/models/stock_routing_rule.py:0
+msgid ""
+"Operation type of a rule used as 'pull' must have '{}' or a sub-location as "
+"source location."
+msgstr ""
+"Тип операції правила, що використовується як 'pull', повинен мати '{}' або "
+"підмісце як вихідне місце."
+
+#. module: stock_dynamic_routing
+#. odoo-python
+#: code:addons/stock_dynamic_routing/models/stock_routing_rule.py:0
+msgid ""
+"Operation type of a rule used as 'push' must have '{}' or a sub-location as "
+"destination location."
+msgstr ""
+"Тип операції правила, що використовується як 'push', повинен мати '{}' або "
+"підмісце як місце призначення."

@@ -382,3 +382,33 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch_creation.field_stock_device_type__max_weight
 msgid "Weight in default system weight unit of measure. Set to 0 to disable."
 msgstr "Вага в системній одиниці виміру ваги за замовчуванням. 0 — вимкнути."
+
+#. module: stock_picking_batch_creation
+#. odoo-python
+#: code:addons/stock_picking_batch_creation/exceptions.py:0
+msgid ""
+"At least one picking candidate found %(name)s but with more line to process "
+"than the maximum number of line allowed in a batch picking. (%(max_line)s) "
+"vs (%(line)s)"
+msgstr ""
+"Знайдено щонайменше одне кандидатне переміщення %(name)s, але з більшою "
+"кількістю рядків для обробки, ніж дозволено в пакетному переміщенні. "
+"(%(max_line)s) проти (%(line)s)"
+
+#. module: stock_picking_batch_creation
+#. odoo-python
+#: code:addons/stock_picking_batch_creation/exceptions.py:0
+msgid "No device found for batch picking."
+msgstr "Пристрій для пакетного комплектування не знайдено."
+
+#. module: stock_picking_batch_creation
+#. odoo-python
+#: code:addons/stock_picking_batch_creation/exceptions.py:0
+msgid "Picking %(name)s cannot be split"
+msgstr "Комплектування %(name)s не можна розділити"
+
+#. module: stock_picking_batch_creation
+#. odoo-python
+#: code:addons/stock_picking_batch_creation/exceptions.py:0
+msgid "no candidate pickings to batch"
+msgstr "немає комплектувань-кандидатів для пакетування"

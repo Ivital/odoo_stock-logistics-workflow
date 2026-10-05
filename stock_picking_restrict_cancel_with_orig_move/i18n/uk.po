@@ -26,3 +26,13 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, скасування комплектування блокується, якщо будь-яке його "
 "переміщення має попереднє переміщення, яке ще не скасовано й не виконано."
+
+#. module: stock_picking_restrict_cancel_with_orig_move
+#. odoo-python
+#: code:addons/stock_picking_restrict_cancel_with_orig_move/models/stock_move.py:0
+msgid ""
+"Cancellation of destination move is restricted if any previous move is not canceled or done. Original moves are not canceled or done on the following objects : \n"
+"%s"
+msgstr ""
+"Скасування переміщення призначення обмежене, якщо будь-яке попереднє переміщення не скасоване й не виконане. Початкові переміщення не скасовані/виконані для об’єктів:\n"
+"%s"

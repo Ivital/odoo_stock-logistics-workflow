@@ -175,3 +175,9 @@ msgstr ""
 #: model:ir.model.fields,help:stock_valuation_layer_usage.field_stock_valuation_layer_usage__stock_valuation_layer_id
 msgid "Valuation Layer that was used"
 msgstr "Використаний шар оцінки"
+
+#. module: stock_valuation_layer_usage
+#. odoo-python
+#: code:addons/stock_valuation_layer_usage/models/stock_valuation_layer_usage.py:0
+msgid "You can't user same layer as origin and destination"
+msgstr "Не можна використовувати той самий шар як джерело і призначення"

@@ -83,3 +83,9 @@ msgstr "Перевірити неповні пакети"
 #: model:ir.model,name:stock_picking_batch_validate_confirm.model_stock_picking_batch_confirm
 msgid "Wizard Batch Confirm"
 msgstr "Майстер пакетного підтвердження"
+
+#. module: stock_picking_batch_validate_confirm
+#. odoo-python
+#: code:addons/stock_picking_batch_validate_confirm/models/stock_picking_batch.py:0
+msgid "Batch Confirm"
+msgstr "Підтвердити пакет"

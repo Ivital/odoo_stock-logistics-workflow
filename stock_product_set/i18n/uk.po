@@ -88,3 +88,9 @@ msgstr "Додати набір у переміщення"
 #: model:ir.model,name:stock_product_set.model_stock_product_set_wizard
 msgid "Wizard model to add product set into a picking form"
 msgstr "Майстер додавання набору товарів у форму переміщення"
+
+#. module: stock_product_set
+#. odoo-python
+#: code:addons/stock_product_set/wizard/stock_product_set_wizard.py:0
+msgid "This set of products is restricted for this user."
+msgstr "Цей набір товарів обмежений для цього користувача."

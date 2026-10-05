@@ -19,3 +19,21 @@ msgstr ""
 #: model:ir.model,name:stock_lot_scrap.model_stock_scrap
 msgid "Scrap"
 msgstr "Брак"
+
+#. module: stock_lot_scrap
+#. odoo-python
+#: code:addons/stock_lot_scrap/models/stock_scrap.py:0
+msgid "Lot was scrapped by <b>%s</b>."
+msgstr "Партію списано користувачем <b>%s</b>."
+
+#. module: stock_lot_scrap
+#. odoo-python
+#: code:addons/stock_lot_scrap/models/stock_lot.py:0
+msgid "This lot doesn't contain any quant in internal location."
+msgstr "Ця партія не містить жодного кванта у внутрішньому місці."
+
+#. module: stock_lot_scrap
+#. odoo-python
+#: code:addons/stock_lot_scrap/models/stock_lot.py:0
+msgid "This will scrap the whole lot. Are you sure you want to continue?"
+msgstr "Буде утилізовано всю партію. Ви впевнені, що хочете продовжити?"

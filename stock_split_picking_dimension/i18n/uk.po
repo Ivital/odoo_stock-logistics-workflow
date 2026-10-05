@@ -82,3 +82,15 @@ msgstr "Обсяг у типовій системній одиниці вимі�
 #: model:ir.model.fields,help:stock_split_picking_dimension.field_stock_split_picking__max_weight
 msgid "Weight in default system weight unit of measure"
 msgstr "Вага у типовій системній одиниці виміру ваги"
+
+#. module: stock_split_picking_dimension
+#. odoo-python
+#: code:addons/stock_split_picking_dimension/exceptions.py:0
+msgid "At least one dimension must be set"
+msgstr "Потрібно задати хоча б один розмір"
+
+#. module: stock_split_picking_dimension
+#. odoo-python
+#: code:addons/stock_split_picking_dimension/exceptions.py:0
+msgid "Value of '%(field_label)s' must be positive"
+msgstr "Значення «%(field_label)s» має бути додатним"

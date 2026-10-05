@@ -88,3 +88,9 @@ msgstr ""
 "Вкажіть категорії товарів, які можуть використовувати цей код причини під "
 "час списання. Якщо залишити порожнім, код причини можна використовувати з "
 "будь-яким товаром."
+
+#. module: scrap_reason_code
+#. odoo-python
+#: code:addons/scrap_reason_code/models/stock_scrap.py:0
+msgid "The selected reason code is not allowed for this product category."
+msgstr "Вибраний код причини не дозволений для цієї категорії товару."

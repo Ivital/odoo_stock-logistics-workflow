@@ -239,3 +239,41 @@ msgid ""
 msgstr ""
 "Технічне поле. Вказує, що переміщення скасовано, бо після ручного об’єднання"
 " воно залишилося порожнім."
+
+#. module: stock_picking_group_by_partner_by_carrier
+#. odoo-python
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
+msgid "Backorder moves cannot be assigned to the same picking"
+msgstr ""
+"Переміщення зворотного замовлення не можна призначити тому самому "
+"переміщенню"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#. odoo-python
+#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py:0
+msgid "Grouped pickings"
+msgstr "Згруповані комплектування"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#. odoo-python
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
+msgid "Merged procurement"
+msgstr "Об’єднана закупівля"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#. odoo-python
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
+msgid "Merged procurement for partners: %(partners_name)s"
+msgstr "Об’єднане забезпечення для партнерів: %(partners_name)s"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#. odoo-python
+#: code:addons/stock_picking_group_by_partner_by_carrier/wizards/stock_picking_merge_wiz.py:0
+msgid "No picking can be merged!"
+msgstr "Немає комплектувань для об’єднання!"
+
+#. module: stock_picking_group_by_partner_by_carrier
+#. odoo-python
+#: code:addons/stock_picking_group_by_partner_by_carrier/models/stock_picking.py:0
+msgid "The backorder %s has been created."
+msgstr "Створено дозамовлення %s."

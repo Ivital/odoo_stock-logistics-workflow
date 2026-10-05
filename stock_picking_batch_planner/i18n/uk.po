@@ -67,3 +67,19 @@ msgstr ""
 #: model:ir.model.fields,help:stock_picking_batch_planner.field_stock_picking_batch__can_plan_batches
 msgid "Shows if this Batch can plan Batches"
 msgstr "Показує, чи може цей пакет планувати пакети"
+
+#. module: stock_picking_batch_planner
+#. odoo-python
+#: code:addons/stock_picking_batch_planner/models/stock_picking_type.py:0
+msgid ""
+"If the Planned Batches feature is enabled, at least one 'Group by' option "
+"must be selected."
+msgstr ""
+"Якщо ввімкнено функцію запланованих пакетів, потрібно вибрати щонайменше "
+"одну опцію «Групувати за»."
+
+#. module: stock_picking_batch_planner
+#. odoo-python
+#: code:addons/stock_picking_batch_planner/models/stock_picking_batch.py:0
+msgid "Planned Origin Batches"
+msgstr "Заплановані вихідні пакети"

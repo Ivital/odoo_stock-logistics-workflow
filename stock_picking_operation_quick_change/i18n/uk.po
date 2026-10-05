@@ -118,3 +118,13 @@ msgstr ""
 #: model:ir.model,name:stock_picking_operation_quick_change.model_stock_picking_operation_wizard
 msgid "Stock Picking Operation Wizard"
 msgstr "Майстер операції складського переміщення"
+
+#. module: stock_picking_operation_quick_change
+#. odoo-python
+#: code:addons/stock_picking_operation_quick_change/wizards/stock_picking_wizard.py:0
+msgid ""
+"You can not change operations destination location if picking state is not "
+"in %s"
+msgstr ""
+"Не можна змінити місце призначення операцій, якщо стан комплектування не "
+"входить до %s"

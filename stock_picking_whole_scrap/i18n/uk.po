@@ -137,3 +137,27 @@ msgstr "Запускати поповнення для списаних това
 #: model:ir.model,name:stock_picking_whole_scrap.model_wiz_stock_picking_scrap_line
 msgid "Wizard lines for picking whole scrap"
 msgstr "Рядки майстра повного списання переміщення"
+
+#. module: stock_picking_whole_scrap
+#. odoo-python
+#: code:addons/stock_picking_whole_scrap/models/stock_picking.py:0
+msgid "Whole Scrap"
+msgstr "Увесь брак"
+
+#. module: stock_picking_whole_scrap
+#. odoo-python
+#: code:addons/stock_picking_whole_scrap/wizards/stock_picking_whole_scrap.py:0
+msgid "You can't scrap more quantity that done it"
+msgstr "Не можна утилізувати кількість, більшу за виконану"
+
+#. module: stock_picking_whole_scrap
+#. odoo-python
+#: code:addons/stock_picking_whole_scrap/wizards/stock_picking_whole_scrap.py:0
+msgid "You may only scrap one picking at a time!"
+msgstr "За раз можна утилізувати лише одне переміщення!"
+
+#. module: stock_picking_whole_scrap
+#. odoo-python
+#: code:addons/stock_picking_whole_scrap/wizards/stock_picking_whole_scrap.py:0
+msgid "You may only scrap pickings in done state"
+msgstr "Можна утилізувати лише виконані переміщення"

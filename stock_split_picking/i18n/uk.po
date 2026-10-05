@@ -93,3 +93,47 @@ msgstr "Одне комплектування на рух"
 #: model:ir.model.fields.selection,name:stock_split_picking.selection__stock_split_picking__mode__selection
 msgid "Select move lines to split off"
 msgstr "Вибрати рядки переміщення для відокремлення"
+
+#. module: stock_split_picking
+#. odoo-python
+#: code:addons/stock_split_picking/wizards/stock_split_picking.py:0
+msgid ""
+"%s: Nothing to split, all demand is done. For split you need at least one "
+"line not fully fulfilled"
+msgstr ""
+"%s: Нічого розділяти, весь попит виконано. Для поділу потрібен щонайменше "
+"один не повністю виконаний рядок"
+
+#. module: stock_split_picking
+#. odoo-python
+#: code:addons/stock_split_picking/wizards/stock_split_picking.py:0
+msgid ""
+"%s: Nothing to split. Fill the quantities you want in a new transfer in the "
+"done quantities"
+msgstr ""
+"%s: Нічого розділяти. Заповніть кількості для нового переміщення у виконаних"
+" кількостях"
+
+#. module: stock_split_picking
+#. odoo-python
+#: code:addons/stock_split_picking/exceptions.py:0
+msgid "Cannot split off all moves from picking %(name)s"
+msgstr "Не можна відокремити всі переміщення з переміщення %(name)s"
+
+#. module: stock_split_picking
+#. odoo-python
+#: code:addons/stock_split_picking/exceptions.py:0
+msgid "Cannot split picking %(name)s in state %(state)s"
+msgstr "Не можна розділити переміщення %(name)s у стані %(state)s"
+
+#. module: stock_split_picking
+#. odoo-python
+#: code:addons/stock_split_picking/models/stock_picking.py:0
+msgid "Split off from %s"
+msgstr "Відокремлено від %s"
+
+#. module: stock_split_picking
+#. odoo-python
+#: code:addons/stock_split_picking/models/stock_picking.py:0
+msgid "The split order %s has been created."
+msgstr "Створено розділене замовлення %s."

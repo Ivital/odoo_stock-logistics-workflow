@@ -42,3 +42,9 @@ msgstr "Кількість копій на рахунки"
 #: model:ir.model.fields,field_description:stock_picking_batch_print_invoices.field_stock_picking_type__number_copies_invoices
 msgid "Number of copies per invoice"
 msgstr "Кількість копій на рахунок"
+
+#. module: stock_picking_batch_print_invoices
+#. odoo-python
+#: code:addons/stock_picking_batch_print_invoices/models/stock_picking_type.py:0
+msgid "The number of copies per invoice must be greater or equal to 0"
+msgstr "Кількість копій на рахунок має бути більшою або дорівнювати 0"

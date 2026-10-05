@@ -159,3 +159,18 @@ msgstr ""
 #: model:ir.model,name:stock_picking_import_serial_number.model_stock_picking_import_serial_number_wiz
 msgid "Import S/N wizard"
 msgstr "Майстер імпорту серійних номерів"
+
+#. module: stock_picking_import_serial_number
+#. odoo-python
+#: code:addons/stock_picking_import_serial_number/wizard/import_serial_number_wizard.py:0
+msgid "You must upload file to import records"
+msgstr "Потрібно завантажити файл для імпорту записів"
+
+#. module: stock_picking_import_serial_number
+#. odoo-python
+#: code:addons/stock_picking_import_serial_number/wizard/import_serial_number_wizard.py:0
+msgid ""
+"You only can import S/N for picking operations with creation lots checked"
+msgstr ""
+"Імпортувати серійні номери можна лише для операцій переміщення з увімкненим "
+"створенням партій"
